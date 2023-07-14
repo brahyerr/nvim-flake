@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "neovim-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1687455597,
+        "narHash": "sha256-ec0VkY892QO9IpTXTKRlLjOQyaXkavVtEAmAQQltGG8=",
+        "owner": "neovim",
+        "repo": "neovim",
+        "rev": "12c2c16acf7051d364d29cfd71f2542b0943d8e8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "neovim",
+        "repo": "neovim",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1686960236,
+        "narHash": "sha256-AYCC9rXNLpUWzD9hm+askOfpliLEC9kwAo7ITJc4HIw=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "04af42f3b31dba0ef742d254456dc4c14eedac86",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "neovim-src": "neovim-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
