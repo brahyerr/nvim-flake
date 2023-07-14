@@ -1,1 +1,4 @@
 .direnv
+result
+flake1.nix
+reference.nix
