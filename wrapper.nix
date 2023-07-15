@@ -12,10 +12,11 @@
   neovimConfig = 
   let
     luafiles = lib.filesystem.listFilesRecursive ./lua;
-    luafilter = builtins.filter (path: path != ./lua/init.lua) luafiles;    # Filter out init.lua so that it is always at the top
-    lualist = map (path: builtins.readFile path) luafilter;
-    luainit = builtins.readFile ./lua/init.lua;
-    luatext = luainit + builtins.concatStringsSep "\n" lualist;
+    # luafiltered = builtins.filter (path: path != ./lua/init.lua) luafiles;    # Filter out init.lua so that it is always at the top
+    lualist = map (path: builtins.readFile path) luafiles;
+    # luainit = builtins.readFile ./lua/init.lua;
+    # luatext = luainit + builtins.concatStringsSep "\n" lualist;
+    luatext = builtins.concatStringsSep "\n" lualist;
   in
     neovimUtils.makeNeovimConfig {
     inherit plugins;
