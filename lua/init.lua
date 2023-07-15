@@ -60,7 +60,7 @@ g.maplocalleader = ','
 g.vimtex_view_method = 'zathura'
 
 -- set message level
--- g.cmdheight = 0
+g.cmdheight = 2
 
 -- Set folds
 o.foldmethod = "expr"

@@ -20,8 +20,8 @@ telescope.setup {
   }
 }
 
-telescope.load_extension('notify')
-telescope.load_extension('noice')
+-- telescope.load_extension('notify')
+-- telescope.load_extension('noice')
 
 vim.keymap.set("n", "<leader>fb", "<cmd> Telescope buffers<CR>")
 vim.keymap.set("n", "<leader>ff", "<cmd> Telescope find_files<CR>")

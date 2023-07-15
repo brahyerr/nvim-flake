@@ -54,9 +54,13 @@ fetch.git = "https://github.com/folke/trouble.nvim"
 src.git = "https://github.com/nvim-telescope/telescope.nvim"
 fetch.git = "https://github.com/nvim-telescope/telescope.nvim"
 
-[hop]
-src.git = "https://github.com/phaazon/hop.nvim"
-fetch.git = "https://github.com/phaazon/hop.nvim"
+# [hop]
+# src.git = "https://github.com/phaazon/hop.nvim"
+# fetch.git = "https://github.com/phaazon/hop.nvim"
+
+[hardtime]
+src.git = "https://github.com/m4xshen/hardtime.nvim"
+fetch.git = "https://github.com/m4xshen/hardtime.nvim"
 
 [gitsigns]
 src.git = "https://github.com/lewis6991/gitsigns.nvim"
@@ -78,13 +82,13 @@ fetch.git = "https://github.com/nvim-lualine/lualine.nvim"
 src.git = "https://github.com/danymat/neogen"
 fetch.git = "https://github.com/danymat/neogen"
 
-[notify]
-src.git = "https://github.com/rcarriga/nvim-notify"
-fetch.git = "https://github.com/rcarriga/nvim-notify"
+# [notify]
+# src.git = "https://github.com/rcarriga/nvim-notify"
+# fetch.git = "https://github.com/rcarriga/nvim-notify"
 
-[noice]
-src.git = "https://github.com/folke/noice.nvim"
-fetch.git = "https://github.com/folke/noice.nvim"
+# [noice]
+# src.git = "https://github.com/folke/noice.nvim"
+# fetch.git = "https://github.com/folke/noice.nvim"
 
 [nui]
 src.git = "https://github.com/MunifTanjim/nui.nvim"

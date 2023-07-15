@@ -50,8 +50,17 @@
               statix
               alejandra
               nil
+
+              # lua
+              lua-language-server
+              stylua
+
+              # tex
+              ltex-ls
+
               #other
-              
+
+              xdg-utils       # needed to open links
               ripgrep
               fd
               # vimPlugins.nvim-treesitter-parsers.bash
