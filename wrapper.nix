@@ -11,12 +11,9 @@
 }: let
   neovimConfig = 
   let
-    luafiles = lib.filesystem.listFilesRecursive ./lua;
-    # luafiltered = builtins.filter (path: path != ./lua/init.lua) luafiles;    # Filter out init.lua so that it is always at the top
-    lualist = map (path: builtins.readFile path) luafiles;
-    # luainit = builtins.readFile ./lua/init.lua;
-    # luatext = luainit + builtins.concatStringsSep "\n" lualist;
-    luatext = builtins.concatStringsSep "\n" lualist;
+    luaPaths = lib.filesystem.listFilesRecursive ./lua;
+    luaList = map (path: builtins.readFile path) luaPaths;
+    luaFile = builtins.concatStringsSep "\n" luaList;
   in
     neovimUtils.makeNeovimConfig {
     inherit plugins;
@@ -25,7 +22,7 @@
     withRuby = true;
     viAlias = false;
     vimAlias = false;
-    customRC = "luafile ${writeText "init.lua" luatext}";
+    customRC = "luafile ${writeText "init.lua" luaFile}";
   };
 
   wrapperArgs =
