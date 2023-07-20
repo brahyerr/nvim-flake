@@ -82,25 +82,25 @@ fetch.git = "https://github.com/nvim-lualine/lualine.nvim"
 src.git = "https://github.com/danymat/neogen"
 fetch.git = "https://github.com/danymat/neogen"
 
-# [notify]
-# src.git = "https://github.com/rcarriga/nvim-notify"
-# fetch.git = "https://github.com/rcarriga/nvim-notify"
+[notify]
+src.git = "https://github.com/rcarriga/nvim-notify"
+fetch.git = "https://github.com/rcarriga/nvim-notify"
 
-# [noice]
-# src.git = "https://github.com/folke/noice.nvim"
-# fetch.git = "https://github.com/folke/noice.nvim"
+[noice]
+src.git = "https://github.com/folke/noice.nvim"
+fetch.git = "https://github.com/folke/noice.nvim"
 
 [nui]
 src.git = "https://github.com/MunifTanjim/nui.nvim"
 fetch.git = "https://github.com/MunifTanjim/nui.nvim"
 
-[clipboard-image]
-src.git = "https://github.com/postfen/clipboard-image.nvim"
-fetch.git = "https://github.com/postfen/clipboard-image.nvim"
+# [clipboard-image]
+# src.git = "https://github.com/postfen/clipboard-image.nvim"
+# fetch.git = "https://github.com/postfen/clipboard-image.nvim"
 
-[hologram.nvim]
-src.git = "https://github.com/edluffy/hologram.nvim"
-fetch.git = "https://github.com/edluffy/hologram.nvim"
+# [hologram.nvim]
+# src.git = "https://github.com/edluffy/hologram.nvim"
+# fetch.git = "https://github.com/edluffy/hologram.nvim"
 
 [treesitter]
 src.git = "https://github.com/nvim-treesitter/nvim-treesitter"
