@@ -246,25 +246,6 @@
         },
         "version": "2583b326640ff1d6335a4e78b095203653871c68"
     },
-    "neo-tree": {
-        "cargoLocks": null,
-        "date": "2023-07-19",
-        "extract": null,
-        "name": "neo-tree",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "3c68ae5968b75aea8d445b3bb024e007b0bd0b65",
-            "sha256": "sha256-X9UOCWj49oSFqUPV4Mqy7wXQQysZwccpPoxzf3OkgxE=",
-            "type": "git",
-            "url": "https://github.com/nvim-neo-tree/neo-tree.nvim"
-        },
-        "version": "3c68ae5968b75aea8d445b3bb024e007b0bd0b65"
-    },
     "neogen": {
         "cargoLocks": null,
         "date": "2023-06-09",

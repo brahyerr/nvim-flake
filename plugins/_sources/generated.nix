@@ -170,19 +170,6 @@
     };
     date = "2023-07-19";
   };
-  neo-tree = {
-    pname = "neo-tree";
-    version = "3c68ae5968b75aea8d445b3bb024e007b0bd0b65";
-    src = fetchgit {
-      url = "https://github.com/nvim-neo-tree/neo-tree.nvim";
-      rev = "3c68ae5968b75aea8d445b3bb024e007b0bd0b65";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sha256 = "sha256-X9UOCWj49oSFqUPV4Mqy7wXQQysZwccpPoxzf3OkgxE=";
-    };
-    date = "2023-07-19";
-  };
   neogen = {
     pname = "neogen";
     version = "1dd0319ccf41b2498f45a3c7607f2ee325ffc6a0";

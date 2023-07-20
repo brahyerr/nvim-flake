@@ -10,9 +10,9 @@ fetch.git = "https://github.com/nvim-neorg/neorg"
 src.git = "https://github.com/nvim-neorg/neorg-telescope"
 fetch.git = "https://github.com/nvim-neorg/neorg-telescope"
 
-[neo-tree]
-src.git = "https://github.com/nvim-neo-tree/neo-tree.nvim"
-fetch.git = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+# [neo-tree]
+# src.git = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+# fetch.git = "https://github.com/nvim-neo-tree/neo-tree.nvim"
 
 [web-devicons]
 src.git = "https://github.com/nvim-tree/nvim-web-devicons"
