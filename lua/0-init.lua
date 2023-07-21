@@ -6,9 +6,9 @@ local home = vim.env.HOME
 
 -- Autocmds
 vim.cmd [[
-autocmd BufReadPost ~/School/* setlocal foldlevel=1
-autocmd BufReadPost ~/Coding/Notes/* setlocal foldlevel=1
-autocmd BufReadPost ~/Notes/* setlocal foldlevel=1
+autocmd BufReadPost ~/School/* setlocal foldlevel=3
+autocmd BufReadPost ~/Coding/Notes/* setlocal foldlevel=3
+autocmd BufReadPost ~/Notes/* setlocal foldlevel=3
 autocmd FileType nix setlocal shiftwidth=2
 
 ]]
@@ -43,10 +43,10 @@ local opts = { silent = true, noremap = true }
 -- map("n", "<C-k>", "<C-w>k", opts)
 -- map("n", "<C-l>", "<C-w>l", opts)
 map('n', '<Esc>', ':noh <CR>', opts)
-map('n', '<C-f>', ':HopWord <CR>', opts)
-map('n', '<C-g>', ':Telescope live_grep <CR>', opts)
-map('n', '<C-n>', ':Telescope find_files <CR>', opts)
-map('n', '<C-b>', ':NeoTreeFocusToggle <CR>', opts)
+-- map('n', '<C-f>', ':HopWord <CR>', opts)
+-- map('n', '<C-g>', ':Telescope live_grep <CR>', opts)
+-- map('n', '<C-f>', ':Telescope find_files <CR>', opts)
+-- map('n', '<C-b>', ':NeoTreeFocusToggle <CR>', opts)
 map('n', 'j', 'gj', opts)
 map('n', 'k', 'gk', opts)
 map('n', ';', ':', { noremap = true } )
