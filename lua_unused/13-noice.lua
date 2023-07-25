@@ -1,3 +1,4 @@
+require('telescope').load_extension('noice')
 require("noice").setup({
   lsp = {
     -- override markdown rendering so that **cmp** and other plugins use **Treesitter**
@@ -52,7 +53,7 @@ require("noice").setup({
   views = {
     cmdline_popup = {
       position = {
-        row = 10,
+        row = "15%",
         col = "50%",
       },
     },
