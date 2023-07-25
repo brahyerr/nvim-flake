@@ -25,7 +25,7 @@ null_ls.setup({
     -- nb.diagnostics.cppcheck, -- not needed, not using cpp
     nb.diagnostics.deadnix,
     nb.code_actions.statix,
-    nb.completion.spell,
+    -- nb.completion.spell,
   },
 })
 
@@ -37,10 +37,10 @@ local coq = require('coq')
 -- require('lspconfig').lua_ls.setup{}
 -- require('lspconfig').rnix.setup{}
 
-lspc.rust_analyzer.setup{coq.lsp_ensure_capabilities()}
-lspc.lua_ls.setup{coq.lsp_ensure_capabilities()}
-lspc.rnix.setup{coq.lsp_ensure_capabilities()}
-lspc.ltex.setup{coq.lsp_ensure_capabilities()}
+-- lspc.rust_analyzer.setup{coq.lsp_ensure_capabilities()}
+-- lspc.lua_ls.setup{coq.lsp_ensure_capabilities()}
+-- lspc.rnix.setup{coq.lsp_ensure_capabilities()}
+-- lspc.ltex.setup{coq.lsp_ensure_capabilities()}
 
 -- lazy-lsp
 require('lazy-lsp').setup {

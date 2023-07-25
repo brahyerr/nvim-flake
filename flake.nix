@@ -5,6 +5,10 @@
       url = "github:neovim/neovim";
       flake = false;
     };
+    flake-compat = {
+      url = "github:edolstra/flake-compat";
+      flake = false;
+    };
   };
 
   outputs = {
@@ -16,80 +20,89 @@
     inherit (nixpkgs) lib;
     withSystem = f:
       lib.fold lib.recursiveUpdate {}
-      (map (s: f s) ["x86_64-linux" "x86_64-darwin" "aarch64-linux" "aarch64-darwin"]);
+      (map f ["x86_64-linux" "x86_64-darwin" "aarch64-linux" "aarch64-darwin"]);
   in
     withSystem (system: let
       pkgs = nixpkgs.legacyPackages.${system};
     in {
       formatter.${system} = pkgs.alejandra;
-
-      overlay = final: _: lib.filterAttrs (n: _: n == "default") self.packages.${final.system};
-
-      packages.${system} = {
-        neovim = pkgs.callPackage ./wrapper.nix {
-          package = pkgs.neovim-unwrapped.overrideAttrs (_: let
-            version = neovim-src.shortRev or "dirty";
-          in {
-            src = neovim-src;
-            inherit version;
-            patches = [];
-            preConfigure = ''
-              sed -i cmake.config/versiondef.h.in -e 's/@NVIM_VERSION_PRERELEASE@/-dev-${version}/'
-            '';
-          });
-          extraPackages = builtins.attrValues {
-            inherit
-              (pkgs)
-              #rust
-              
-              rustfmt
-              #nix
-              
-              nixd
-              deadnix
-              statix
-              alejandra
-              nil
-
-              # lua
-              lua-language-server
-              stylua
-
-              # tex
-              ltex-ls
-
-              #other
-
-              xdg-utils       # needed to open links
-              ripgrep
-              fd
-              # vimPlugins.nvim-treesitter-parsers.bash
-              ;
-          };
-          plugins =
-            (lib.mapAttrsToList (
-                _: value: (
-                  pkgs.vimUtils.buildVimPluginFrom2Nix
-                  {
-                    # inherit (value) name date version;
-                    inherit (value) name version;
-                    src = pkgs.fetchgit {
-                      inherit (value.src) url rev sha256;
-                    };
-                  }
-                )
-              )
-              (lib.importJSON ./plugins/_sources/generated.json))
-            ++ [pkgs.vimPlugins.nvim-treesitter.withAllGrammars];
-        };
-        default = self.packages.${system}.neovim;
-      };
-
+      overlays.default = final: _: removeAttrs self.packages.${final.system} ["default"];
+      overlay = self.overlays.default;
       devShells.${system}.default = pkgs.mkShell {
         packages = [
           self.packages.${system}.default
           pkgs.nvfetcher
         ];
+      };
+
+      packages.${system} = {
+        default = self.packages.${system}.neovim;
+
+        neovim = let
+          luaPaths = lib.filesystem.listFilesRecursive ./lua;
+          luaList = map (path: builtins.readFile path) luaPaths;
+          luaFile = builtins.concatStringsSep "\n" luaList;
+          neovimConfig = pkgs.neovimUtils.makeNeovimConfig {
+            plugins =
+              [pkgs.vimPlugins.nvim-treesitter.withAllGrammars]
+              ++ lib.mapAttrsToList (
+                _: value: (pkgs.vimUtils.buildVimPluginFrom2Nix value)
+              )
+              (import ./plugins/_sources/generated.nix {inherit (pkgs) fetchgit fetchurl fetchFromGitHub;});
+            withPython3 = true;
+            extraPython3Packages = _: [];
+            withRuby = true;
+            viAlias = false;
+            vimAlias = false;
+            customRC = "luafile ${pkgs.writeText "init.lua" luaFile}";
+          };
+          wrapperArgs =
+            neovimConfig.wrapperArgs
+            ++ [
+              "--prefix"
+              "PATH"
+              ":"
+              (
+                lib.makeBinPath (
+                  builtins.attrValues
+                  {
+                    inherit
+                      (pkgs)
+                      #nix
+                      
+                      nixd
+                      deadnix
+                      statix
+                      alejandra
+                      nil
+
+                      # tex
+                      ltex-ls
+
+                      # lua
+                      lua-language-server
+                      stylua
+
+                      #other
+                      
+                      ripgrep
+                      fd
+                      xdg-utils
+                      ;
+                  }
+                )
+              )
+            ];
+        in
+          pkgs.wrapNeovimUnstable (pkgs.neovim-unwrapped.overrideAttrs {
+            src = neovim-src;
+            version = neovim-src.shortRev or "dirty";
+            patches = [];
+            preConfigure = ''
+              sed -i cmake.config/versiondef.h.in -e "s/@NVIM_VERSION_PRERELEASE@/-dev-$version/"
+            '';
+          })
+          (neovimConfig // {inherit wrapperArgs;});
       };
     });
 }
