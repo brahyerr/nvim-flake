@@ -90,7 +90,7 @@ o.undofile = true
 -- Indentation
 o.smartindent = true
 o.tabstop = 2
-o.shiftwidth = 2
+o.shiftwidth = 4
 o.shiftround = true
 o.expandtab = true
 o.scrolloff = 3
