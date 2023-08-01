@@ -2,22 +2,22 @@
 local telescope = require("telescope")
 
 telescope.setup({
-	defaults = {
-		vimgrep_arguments = {
-			"rg",
-			"--color=never",
-			"--no-heading",
-			"--with-filename",
-			"--line-number",
-			"--column",
-			"--smart-case",
-		},
-		pickers = {
-			find_command = {
-				"fd",
-			},
-		},
-	},
+  defaults = {
+    vimgrep_arguments = {
+      "rg",
+      "--color=never",
+      "--no-heading",
+      "--with-filename",
+      "--line-number",
+      "--column",
+      "--smart-case",
+    },
+    pickers = {
+      find_command = {
+        "fd",
+      },
+    },
+  },
 })
 
 vim.keymap.set("n", "<leader>fb", "<cmd> Telescope buffers<CR>")
