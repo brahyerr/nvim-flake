@@ -15,23 +15,23 @@
 
 -- null-ls
 local null_ls = require("null-ls")
-local nb = require('null-ls').builtins
+local nb = require("null-ls").builtins
 
 null_ls.setup({
-  sources = {
-    nb.formatting.stylua,
-    nb.formatting.alejandra,
-    -- nb.diagnostics.eslint,   -- not needed, not using node
-    -- nb.diagnostics.cppcheck, -- not needed, not using cpp
-    nb.diagnostics.deadnix,
-    nb.code_actions.statix,
-    -- nb.completion.spell,
-  },
+	sources = {
+		nb.formatting.stylua,
+		nb.formatting.alejandra,
+		-- nb.diagnostics.eslint,   -- not needed, not using node
+		-- nb.diagnostics.cppcheck, -- not needed, not using cpp
+		nb.diagnostics.deadnix,
+		nb.code_actions.statix,
+		-- nb.completion.spell,
+	},
 })
 
 -- lspconfig
-local lspc = require('lspconfig')
-local coq = require('coq')
+local lspc = require("lspconfig")
+local coq = require("coq")
 
 -- require('lspconfig').rust_analyzer.setup{}
 -- require('lspconfig').lua_ls.setup{}
@@ -43,92 +43,92 @@ local coq = require('coq')
 -- lspc.ltex.setup{coq.lsp_ensure_capabilities()}
 
 -- lazy-lsp
-require('lazy-lsp').setup {
-  -- By default all available servers are set up. Exclude unwanted or misbehaving servers.
-  -- excluded_servers = {
-  ---   "ccls", "zk",
-  --- },
-  excluded_servers = {
-    "sqls",
-  },
-  -- Alternatively specify preferred servers for a filetype (others will be ignored).
-  preferred_servers = {
-    haskell = { "hls" },
-    rust = { "rust_analyzer" },
-    nix = { "rnix" },
-  },
-  -- Default config passed to all servers to specify on_attach callback and other options.
-  default_config = {
-    flags = {
-      debounce_text_changes = 150,
-    },
-    -- on_attach = on_attach,
-    -- capabilities = capabilities,
-  },
-  -- Override config for specific servers that will passed down to lspconfig setup.
-  -- Note that the default_config will be nerged with this specific configuration so you don't need to specify everything twice.
-  configs = {
-    lua_ls = {
-      settings = {
-        Lua = {
-          diagnostics = {
-            -- Get the language server to recognize the `vim` global
-            globals = { "vim" },
-          },
-        },
-      },
-    },
-  },
-}
+require("lazy-lsp").setup({
+	-- By default all available servers are set up. Exclude unwanted or misbehaving servers.
+	-- excluded_servers = {
+	---   "ccls", "zk",
+	--- },
+	excluded_servers = {
+		"sqls",
+	},
+	-- Alternatively specify preferred servers for a filetype (others will be ignored).
+	preferred_servers = {
+		haskell = { "hls" },
+		rust = { "rust_analyzer" },
+		nix = { "rnix" },
+	},
+	-- Default config passed to all servers to specify on_attach callback and other options.
+	default_config = {
+		flags = {
+			debounce_text_changes = 150,
+		},
+		-- on_attach = on_attach,
+		-- capabilities = capabilities,
+	},
+	-- Override config for specific servers that will passed down to lspconfig setup.
+	-- Note that the default_config will be nerged with this specific configuration so you don't need to specify everything twice.
+	configs = {
+		lua_ls = {
+			settings = {
+				Lua = {
+					diagnostics = {
+						-- Get the language server to recognize the `vim` global
+						globals = { "vim" },
+					},
+				},
+			},
+		},
+	},
+})
 
 -- SECTION: lspkind
 
-require('lspkind').init({
-    -- DEPRECATED (use mode instead): enables text annotations
-    --
-    -- default: true
-    -- with_text = true,
+require("lspkind").init({
+	-- DEPRECATED (use mode instead): enables text annotations
+	--
+	-- default: true
+	-- with_text = true,
 
-    -- defines how annotations are shown
-    -- default: symbol
-    -- options: 'text', 'text_symbol', 'symbol_text', 'symbol'
-    mode = 'symbol_text',
+	-- defines how annotations are shown
+	-- default: symbol
+	-- options: 'text', 'text_symbol', 'symbol_text', 'symbol'
+	mode = "symbol_text",
 
-    -- default symbol map
-    -- can be either 'default' (requires nerd-fonts font) or
-    -- 'codicons' for codicon preset (requires vscode-codicons font)
-    --
-    -- default: 'default'
-    preset = 'codicons',
+	-- default symbol map
+	-- can be either 'default' (requires nerd-fonts font) or
+	-- 'codicons' for codicon preset (requires vscode-codicons font)
+	--
+	-- default: 'default'
+	preset = "codicons",
 
-    -- override preset symbols
-    --
-    -- default: {}
-    symbol_map = {
-      Text = "󰉿",
-      Method = "󰆧",
-      Function = "󰊕",
-      Constructor = "",
-      Field = "󰜢",
-      Variable = "󰀫",
-      Class = "󰠱",
-      Interface = "",
-      Module = "",
-      Property = "󰜢",
-      Unit = "󰑭",
-      Value = "󰎠",
-      Enum = "",
-      Keyword = "󰌋",
-      Snippet = "",
-      Color = "󰏘",
-      File = "󰈙",
-      Reference = "󰈇",
-      Folder = "󰉋",
-      EnumMember = "",
-      Constant = "󰏿",
-      Struct = "󰙅",
-      Event = "",
-      Operator = "󰆕",
-      TypeParameter = "",
-    },
+	-- override preset symbols
+	--
+	-- default: {}
+	symbol_map = {
+		Text = "󰉿",
+		Method = "󰆧",
+		Function = "󰊕",
+		Constructor = "",
+		Field = "󰜢",
+		Variable = "󰀫",
+		Class = "󰠱",
+		Interface = "",
+		Module = "",
+		Property = "󰜢",
+		Unit = "󰑭",
+		Value = "󰎠",
+		Enum = "",
+		Keyword = "󰌋",
+		Snippet = "",
+		Color = "󰏘",
+		File = "󰈙",
+		Reference = "󰈇",
+		Folder = "󰉋",
+		EnumMember = "",
+		Constant = "󰏿",
+		Struct = "󰙅",
+		Event = "",
+		Operator = "󰆕",
+		TypeParameter = "",
+	},
 })

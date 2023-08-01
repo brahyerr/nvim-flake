@@ -5,13 +5,13 @@ local g = vim.g
 local home = vim.env.HOME
 
 -- Autocmds
-vim.cmd [[
+vim.cmd([[
 autocmd BufReadPost ~/School/* setlocal foldlevel=3
 autocmd BufReadPost ~/Coding/Notes/* setlocal foldlevel=3
 autocmd BufReadPost ~/Notes/* setlocal foldlevel=3
 autocmd FileType nix setlocal shiftwidth=2
 
-]]
+]])
 -- autocmd VimEnter ~/Coding/* execute 'Neorg workspace Coding'
 -- autocmd VimEnter ~/Notes/* execute 'Neorg workspace Notes'
 -- augroup MyColors
@@ -42,22 +42,22 @@ local opts = { silent = true, noremap = true }
 -- map("n", "<C-j>", "<C-w>j", opts)
 -- map("n", "<C-k>", "<C-w>k", opts)
 -- map("n", "<C-l>", "<C-w>l", opts)
-map('n', '<Esc>', ':noh <CR>', opts)
+map("n", "<Esc>", ":noh <CR>", opts)
 -- map('n', '<C-f>', ':HopWord <CR>', opts)
 -- map('n', '<C-g>', ':Telescope live_grep <CR>', opts)
 -- map('n', '<C-f>', ':Telescope find_files <CR>', opts)
 -- map('n', '<C-b>', ':NeoTreeFocusToggle <CR>', opts)
-map('n', 'j', 'gj', opts)
-map('n', 'k', 'gk', opts)
-map('n', ';', ':', { noremap = true } )
+map("n", "j", "gj", opts)
+map("n", "k", "gk", opts)
+map("n", ";", ":", { noremap = true })
 
 -- map leader keys
-map('n', ' ', '<Nop>', opts)
-g.mapleader = ' '
-g.maplocalleader = ','
+map("n", " ", "<Nop>", opts)
+g.mapleader = " "
+g.maplocalleader = ","
 
 -- vimtex viewer
-g.vimtex_view_method = 'zathura'
+g.vimtex_view_method = "zathura"
 
 -- set message level
 g.cmdheight = 2
@@ -66,7 +66,7 @@ g.cmdheight = 2
 o.foldmethod = "expr"
 o.foldlevel = 99
 o.foldnestmax = 3
-o.foldexpr = "nvim_treesitter#foldexpr()"     -- Without these lines, I wouldn't be able to fold things (like in Neorg)
+o.foldexpr = "nvim_treesitter#foldexpr()" -- Without these lines, I wouldn't be able to fold things (like in Neorg)
 
 -- Set concealer settings
 o.conceallevel = 2
@@ -77,7 +77,7 @@ o.undodir = home .. "/.local/share/nvim/undodir"
 o.undolevels = 3000
 
 -- Performance
-o.lazyredraw = false;
+o.lazyredraw = false
 o.shell = "zsh"
 o.shadafile = "NONE"
 
@@ -126,4 +126,3 @@ o.pumheight = 6
 o.splitright = true
 o.splitbelow = true
 o.completeopt = "menuone,noselect"
-

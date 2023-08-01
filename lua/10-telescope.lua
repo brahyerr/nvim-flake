@@ -1,24 +1,24 @@
 -- SECTION: telescope
-local telescope = require('telescope')
+local telescope = require("telescope")
 
-telescope.setup {
-  defaults = {
-    vimgrep_arguments = {
-      "rg",
-      "--color=never",
-      "--no-heading",
-      "--with-filename",
-      "--line-number",
-      "--column",
-      "--smart-case"
-    },
-    pickers = {
-      find_command = {
-        "fd",
-      },
-    },
-  }
-}
+telescope.setup({
+	defaults = {
+		vimgrep_arguments = {
+			"rg",
+			"--color=never",
+			"--no-heading",
+			"--with-filename",
+			"--line-number",
+			"--column",
+			"--smart-case",
+		},
+		pickers = {
+			find_command = {
+				"fd",
+			},
+		},
+	},
+})
 
 vim.keymap.set("n", "<leader>fb", "<cmd> Telescope buffers<CR>")
 vim.keymap.set("n", "<leader>ff", "<cmd> Telescope find_files<CR>")
@@ -39,5 +39,3 @@ vim.keymap.set("n", "<leader>fvc", "<cmd> Telescope git_bcommits<CR>")
 vim.keymap.set("n", "<leader>fvw", "<cmd> Telescope git_commits<CR>")
 vim.keymap.set("n", "<leader>fvs", "<cmd> Telescope git_status<CR>")
 vim.keymap.set("n", "<leader>fvx", "<cmd> Telescope git_stash<CR>")
-
-

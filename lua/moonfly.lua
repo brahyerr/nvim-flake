@@ -6,4 +6,4 @@ vim.g.moonflyTransparent = true
 vim.g.moonflyUndercurls = true
 vim.g.moonflyUnderlineMatchParen = true
 vim.g.moonflyVirtualTextColor = true
-vim.cmd [[colorscheme moonfly]]
+vim.cmd([[colorscheme moonfly]])
