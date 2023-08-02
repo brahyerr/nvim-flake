@@ -56,42 +56,42 @@
             vimAlias = false;
             customRC = "luafile ${pkgs.writeText "init.lua" luaFile}";
           };
-          wrapperArgs =
+          wrapperArgs = let
+            path = lib.makeBinPath (
+              builtins.attrValues
+              {
+                inherit
+                  (pkgs)
+                  #nix
+                  
+                  nixd
+                  deadnix
+                  statix
+                  alejandra
+                  nil
+
+                  # tex
+                  ltex-ls
+
+                  # lua
+                  lua-language-server
+                  stylua
+
+                  #other
+                  
+                  ripgrep
+                  fd
+                  xdg-utils
+                  ;
+              }
+            );
+          in
             neovimConfig.wrapperArgs
             ++ [
               "--prefix"
               "PATH"
               ":"
-              (
-                lib.makeBinPath (
-                  builtins.attrValues
-                  {
-                    inherit
-                      (pkgs)
-                      #nix
-                      
-                      nixd
-                      deadnix
-                      statix
-                      alejandra
-                      nil
-
-                      # tex
-                      ltex-ls
-
-                      # lua
-                      lua-language-server
-                      stylua
-
-                      #other
-                      
-                      ripgrep
-                      fd
-                      xdg-utils
-                      ;
-                  }
-                )
-              )
+              path
             ];
         in
           pkgs.wrapNeovimUnstable (pkgs.neovim-unwrapped.overrideAttrs {
