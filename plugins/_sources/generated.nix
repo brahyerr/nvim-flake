@@ -40,6 +40,19 @@
     };
     date = "2023-08-02";
   };
+  conjure = {
+    pname = "conjure";
+    version = "2482871cbe0d1b85d331465cf7f065d5d2a7e2ac";
+    src = fetchgit {
+      url = "https://github.com/Olical/conjure";
+      rev = "2482871cbe0d1b85d331465cf7f065d5d2a7e2ac";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sha256 = "sha256-700AhkKvc1X/Q/+YaLuDFlDzNKcd3kuXbMb9NIG7tMo=";
+    };
+    date = "2023-07-11";
+  };
   coq = {
     pname = "coq";
     version = "950df6bf2c818eca310933ab1b319fd8972c1805";
@@ -260,6 +273,19 @@
       sha256 = "sha256-OcCplmC62wkVxk5vuutbMD/4usWBAD/Qd96A7s2cylA=";
     };
     date = "2023-06-06";
+  };
+  parinfer = {
+    pname = "parinfer";
+    version = "c0d95d9f4c5f921872ba11790b76efbb02cc8af5";
+    src = fetchgit {
+      url = "https://github.com/gpanders/nvim-parinfer";
+      rev = "c0d95d9f4c5f921872ba11790b76efbb02cc8af5";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sha256 = "sha256-xJmVZyoNgKtOyqSBhkLEQuF3kcwI/sKoyfb3fS+3Zmo=";
+    };
+    date = "2023-04-08";
   };
   plenary = {
     pname = "plenary";

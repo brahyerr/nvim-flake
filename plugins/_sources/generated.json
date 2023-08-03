@@ -56,6 +56,25 @@
         },
         "version": "d0cbbfb539898a275dc4398446ab0ae3b94819bf"
     },
+    "conjure": {
+        "cargoLocks": null,
+        "date": "2023-07-11",
+        "extract": null,
+        "name": "conjure",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "2482871cbe0d1b85d331465cf7f065d5d2a7e2ac",
+            "sha256": "sha256-700AhkKvc1X/Q/+YaLuDFlDzNKcd3kuXbMb9NIG7tMo=",
+            "type": "git",
+            "url": "https://github.com/Olical/conjure"
+        },
+        "version": "2482871cbe0d1b85d331465cf7f065d5d2a7e2ac"
+    },
     "coq": {
         "cargoLocks": null,
         "date": "2023-08-01",
@@ -378,6 +397,25 @@
             "url": "https://github.com/nyoom-engineering/oxocarbon.nvim"
         },
         "version": "12a7507f1cd5ac6edb890d12268e4444a35956f2"
+    },
+    "parinfer": {
+        "cargoLocks": null,
+        "date": "2023-04-08",
+        "extract": null,
+        "name": "parinfer",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "c0d95d9f4c5f921872ba11790b76efbb02cc8af5",
+            "sha256": "sha256-xJmVZyoNgKtOyqSBhkLEQuF3kcwI/sKoyfb3fS+3Zmo=",
+            "type": "git",
+            "url": "https://github.com/gpanders/nvim-parinfer"
+        },
+        "version": "c0d95d9f4c5f921872ba11790b76efbb02cc8af5"
     },
     "plenary": {
         "cargoLocks": null,

@@ -74,9 +74,17 @@ fetch.git = "https://github.com/m4xshen/hardtime.nvim"
 src.git = "https://github.com/lewis6991/gitsigns.nvim"
 fetch.git = "https://github.com/lewis6991/gitsigns.nvim"
 
+[parinfer]
+src.git = "https://github.com/gpanders/nvim-parinfer"
+fetch.git = "https://github.com/gpanders/nvim-parinfer"
+
 [plenary]
 src.git = "https://github.com/nvim-lua/plenary.nvim"
 fetch.git = "https://github.com/nvim-lua/plenary.nvim"
+
+[conjure]
+src.git = "https://github.com/Olical/conjure"
+fetch.git = "https://github.com/Olical/conjure"
 
 [crates]
 src.git = "https://github.com/saecki/crates.nvim"
