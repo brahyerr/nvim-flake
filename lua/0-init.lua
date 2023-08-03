@@ -10,6 +10,7 @@ autocmd BufReadPost ~/School/* setlocal foldlevel=3
 autocmd BufReadPost ~/Coding/Notes/* setlocal foldlevel=3
 autocmd BufReadPost ~/Notes/* setlocal foldlevel=3
 autocmd FileType nix setlocal shiftwidth=2
+autocmd FileType norg setlocal shiftwidth=2
 autocmd FileType lua setlocal shiftwidth=2
 
 ]])
