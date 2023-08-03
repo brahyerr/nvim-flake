@@ -73,6 +73,9 @@
                   # tex
                   ltex-ls
 
+                  # lisp
+                  roswell
+
                   # lua
                   lua-language-server
                   stylua
