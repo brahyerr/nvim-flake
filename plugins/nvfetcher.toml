@@ -1,6 +1,6 @@
-[moonfly]
-src.git = "https://github.com/bluz71/vim-moonfly-colors"
-fetch.git = "https://github.com/bluz71/vim-moonfly-colors"
+# [moonfly]
+# src.git = "https://github.com/bluz71/vim-moonfly-colors"
+# fetch.git = "https://github.com/bluz71/vim-moonfly-colors"
 
 [oxocarbon]
 src.git = "https://github.com/nyoom-engineering/oxocarbon.nvim"
@@ -58,6 +58,10 @@ fetch.git = "https://github.com/folke/trouble.nvim"
 src.git = "https://github.com/nvim-telescope/telescope.nvim"
 fetch.git = "https://github.com/nvim-telescope/telescope.nvim"
 
+[telescope-file-browser]
+src.git = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
+fetch.git = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
+
 # [hop]
 # src.git = "https://github.com/phaazon/hop.nvim"
 # fetch.git = "https://github.com/phaazon/hop.nvim"
@@ -86,13 +90,13 @@ fetch.git = "https://github.com/nvim-lualine/lualine.nvim"
 src.git = "https://github.com/danymat/neogen"
 fetch.git = "https://github.com/danymat/neogen"
 
-[notify]
-src.git = "https://github.com/rcarriga/nvim-notify"
-fetch.git = "https://github.com/rcarriga/nvim-notify"
+# [notify]
+# src.git = "https://github.com/rcarriga/nvim-notify"
+# fetch.git = "https://github.com/rcarriga/nvim-notify"
 
-[noice]
-src.git = "https://github.com/folke/noice.nvim"
-fetch.git = "https://github.com/folke/noice.nvim"
+# [noice]
+# src.git = "https://github.com/folke/noice.nvim"
+# fetch.git = "https://github.com/folke/noice.nvim"
 
 [nui]
 src.git = "https://github.com/MunifTanjim/nui.nvim"
@@ -137,6 +141,10 @@ fetch.git = "https://github.com/akinsho/bufferline.nvim"
 [smart-splits]
 src.git = "https://github.com/mrjones2014/smart-splits.nvim"
 fetch.git = "https://github.com/mrjones2014/smart-splits.nvim"
+
+[startup]
+src.git = "https://github.com/startup-nvim/startup.nvim"
+fetch.git = "https://github.com/startup-nvim/startup.nvim"
 
 [bufdelete-nvim]
 src.git = "https://github.com/famiu/bufdelete.nvim"

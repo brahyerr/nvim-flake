@@ -227,25 +227,6 @@
         },
         "version": "05d78e9fd0cdfb4545974a5aa14b1be95a86e9c9"
     },
-    "moonfly": {
-        "cargoLocks": null,
-        "date": "2023-08-01",
-        "extract": null,
-        "name": "moonfly",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "b978252d794ab2670a9fb8e43c8a1587fb72ce1a",
-            "sha256": "sha256-OCkSmBQRFJLDz/eg3h2imiyb95VnMz8C9AC7ZO+LB5I=",
-            "type": "git",
-            "url": "https://github.com/bluz71/vim-moonfly-colors"
-        },
-        "version": "b978252d794ab2670a9fb8e43c8a1587fb72ce1a"
-    },
     "neogen": {
         "cargoLocks": null,
         "date": "2023-06-09",
@@ -302,44 +283,6 @@
             "url": "https://github.com/nvim-neorg/neorg-telescope"
         },
         "version": "d803ae41c40e3dfa2ac11a4956497436b101ce80"
-    },
-    "noice": {
-        "cargoLocks": null,
-        "date": "2023-07-25",
-        "extract": null,
-        "name": "noice",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "894db25ec726d32047799d4d0a982b701bec453b",
-            "sha256": "sha256-Zca6meJkfF4fl17Y+6s77GYrqnhkkzIYW73vAhKg7e4=",
-            "type": "git",
-            "url": "https://github.com/folke/noice.nvim"
-        },
-        "version": "894db25ec726d32047799d4d0a982b701bec453b"
-    },
-    "notify": {
-        "cargoLocks": null,
-        "date": "2023-06-05",
-        "extract": null,
-        "name": "notify",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "ea9c8ce7a37f2238f934e087c255758659948e0f",
-            "sha256": "sha256-Rr2tzuEr06M9ZbvQbC07qcxkyjFJFYdABwRpYelKBFI=",
-            "type": "git",
-            "url": "https://github.com/rcarriga/nvim-notify"
-        },
-        "version": "ea9c8ce7a37f2238f934e087c255758659948e0f"
     },
     "nui": {
         "cargoLocks": null,
@@ -474,6 +417,25 @@
         },
         "version": "7aad6019dee974a01333523a5b8e122b7e7da454"
     },
+    "startup": {
+        "cargoLocks": null,
+        "date": "2023-03-13",
+        "extract": null,
+        "name": "startup",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "5295eabe35eb66d0b355ada0ca06ec8bdb8f9698",
+            "sha256": "sha256-WB9NVv2sv8ZAFuM5zcg9akFsqVNl0JBhNIwixwfrf2I=",
+            "type": "git",
+            "url": "https://github.com/startup-nvim/startup.nvim"
+        },
+        "version": "5295eabe35eb66d0b355ada0ca06ec8bdb8f9698"
+    },
     "telescope": {
         "cargoLocks": null,
         "date": "2023-08-01",
@@ -492,6 +454,25 @@
             "url": "https://github.com/nvim-telescope/telescope.nvim"
         },
         "version": "d2e17ba18a6840b7e7079764b282616c3188e0de"
+    },
+    "telescope-file-browser": {
+        "cargoLocks": null,
+        "date": "2023-07-30",
+        "extract": null,
+        "name": "telescope-file-browser",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "6fe423eea6604c2fcbb906ff5f7e27f748a6ed87",
+            "sha256": "sha256-PVg0ZDqF4ABBJ24oF/9GSJkiJrXqcYX1GP0rgGXgk8E=",
+            "type": "git",
+            "url": "https://github.com/nvim-telescope/telescope-file-browser.nvim"
+        },
+        "version": "6fe423eea6604c2fcbb906ff5f7e27f748a6ed87"
     },
     "toggle-term": {
         "cargoLocks": null,
