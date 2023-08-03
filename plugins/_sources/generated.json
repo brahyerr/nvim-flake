@@ -94,9 +94,28 @@
         },
         "version": "950df6bf2c818eca310933ab1b319fd8972c1805"
     },
+    "coq_3p": {
+        "cargoLocks": null,
+        "date": "2023-07-30",
+        "extract": null,
+        "name": "coq_3p",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "8dfe289b5bde380be5cf7ffb51487099ba312d7a",
+            "sha256": "sha256-GkxYT5DwtbIooP/ZTwnEinqSgp1NLgr25L5GLlSB9YY=",
+            "type": "git",
+            "url": "https://github.com/ms-jpq/coq.thirdparty"
+        },
+        "version": "8dfe289b5bde380be5cf7ffb51487099ba312d7a"
+    },
     "coq_nvim": {
         "cargoLocks": null,
-        "date": "2023-08-02",
+        "date": "2023-08-03",
         "extract": null,
         "name": "coq_nvim",
         "passthru": null,
@@ -106,12 +125,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "9c551921939d733ecc847ada2656fd82a9f0c35c",
-            "sha256": "sha256-Mg0GYiOClqPGy+0EwgViWfBS6eyiXMAnp4Ofp5RBcJU=",
+            "rev": "f066e83d886a2525c592b421be20d91307a1c9ec",
+            "sha256": "sha256-7PyYRp6SsMg7JWAbAJPWaXajO5MQZIV8ewbIw0Q1F4Q=",
             "type": "git",
             "url": "https://github.com/ms-jpq/coq_nvim"
         },
-        "version": "9c551921939d733ecc847ada2656fd82a9f0c35c"
+        "version": "f066e83d886a2525c592b421be20d91307a1c9ec"
     },
     "crates": {
         "cargoLocks": null,
@@ -229,7 +248,7 @@
     },
     "lualine": {
         "cargoLocks": null,
-        "date": "2023-05-04",
+        "date": "2023-08-03",
         "extract": null,
         "name": "lualine",
         "passthru": null,
@@ -239,12 +258,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "05d78e9fd0cdfb4545974a5aa14b1be95a86e9c9",
-            "sha256": "sha256-ltHE8UIquGo07BSlFGM1l3wmTNN43i8kx6QY7Fj2CNo=",
+            "rev": "45e27ca739c7be6c49e5496d14fcf45a303c3a63",
+            "sha256": "sha256-v8finXk+sLNaFMA7pSHhEu0WF5mhPYWHEKhl0IKBv8c=",
             "type": "git",
             "url": "https://github.com/nvim-lualine/lualine.nvim"
         },
-        "version": "05d78e9fd0cdfb4545974a5aa14b1be95a86e9c9"
+        "version": "45e27ca739c7be6c49e5496d14fcf45a303c3a63"
     },
     "neogen": {
         "cargoLocks": null,
@@ -514,7 +533,7 @@
     },
     "toggle-term": {
         "cargoLocks": null,
-        "date": "2023-08-02",
+        "date": "2023-08-03",
         "extract": null,
         "name": "toggle-term",
         "passthru": null,
@@ -524,16 +543,16 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "0e4e89aff78ad178e1f3cf5d565a6b4155fbb45b",
-            "sha256": "sha256-LrvFFJs9ZGrAZbRdon/CdOyjSSKdolo5NfnU8vSReF0=",
+            "rev": "12cba0a1967b4f3f31903484dec72a6100dcf515",
+            "sha256": "sha256-VFTnDLGy8U3x5ldMUW6okQjQ78qEFPb1n3pcbS2znNY=",
             "type": "git",
             "url": "https://github.com/akinsho/toggleterm.nvim"
         },
-        "version": "0e4e89aff78ad178e1f3cf5d565a6b4155fbb45b"
+        "version": "12cba0a1967b4f3f31903484dec72a6100dcf515"
     },
     "treesitter": {
         "cargoLocks": null,
-        "date": "2023-08-02",
+        "date": "2023-08-03",
         "extract": null,
         "name": "treesitter",
         "passthru": null,
@@ -543,16 +562,16 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "80aee02921085435b04e880cabd1fbe29f6da99a",
-            "sha256": "sha256-nxCR4jhPWGfgUlT9wJ//a8GizNS7krRmFMjvoTq2IuU=",
+            "rev": "131f665f9008d69d130f76f77603886e75c4b146",
+            "sha256": "sha256-3bH1sPhI0AMnefwaF9xXZx9HZioX8wdSliTZTpvuKsE=",
             "type": "git",
             "url": "https://github.com/nvim-treesitter/nvim-treesitter"
         },
-        "version": "80aee02921085435b04e880cabd1fbe29f6da99a"
+        "version": "131f665f9008d69d130f76f77603886e75c4b146"
     },
     "treesitter-context": {
         "cargoLocks": null,
-        "date": "2023-07-13",
+        "date": "2023-08-03",
         "extract": null,
         "name": "treesitter-context",
         "passthru": null,
@@ -562,12 +581,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "6f8f788738b968f24a108ee599c5be0031f94f06",
-            "sha256": "sha256-AJamiDezFK7l0bqb/VFm+pzBKugQNCmQ6JAWKmjH76g=",
+            "rev": "3d4ab25056dcaf6dd11ebacf1da8525c8df6550f",
+            "sha256": "sha256-gOf7ZwExcZePJp9o0z4fXaTsdBKfow/AAwT5X00nvgk=",
             "type": "git",
             "url": "https://github.com/nvim-treesitter/nvim-treesitter-context"
         },
-        "version": "6f8f788738b968f24a108ee599c5be0031f94f06"
+        "version": "3d4ab25056dcaf6dd11ebacf1da8525c8df6550f"
     },
     "trouble": {
         "cargoLocks": null,

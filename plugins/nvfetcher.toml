@@ -26,6 +26,10 @@ fetch.git = "https://github.com/nvim-tree/nvim-web-devicons"
 src.git = "https://github.com/ms-jpq/coq_nvim"
 fetch.git = "https://github.com/ms-jpq/coq_nvim"
 
+[coq_3p]
+src.git = "https://github.com/ms-jpq/coq.thirdparty"
+fetch.git = "https://github.com/ms-jpq/coq.thirdparty"
+
 [coq.artifacts]
 src.git = "https://github.com/ms-jpq/coq.artifacts"
 fetch.git = "https://github.com/ms-jpq/coq.artifacts"
