@@ -31,6 +31,7 @@
       devShells.${system}.default = pkgs.mkShell {
         packages = [
           self.packages.${system}.default
+          pkgs.roswell
           pkgs.nvfetcher
         ];
       };
@@ -72,9 +73,6 @@
 
                   # tex
                   ltex-ls
-
-                  # lisp
-                  roswell
 
                   # lua
                   lua-language-server
