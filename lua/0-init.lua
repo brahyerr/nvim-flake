@@ -5,7 +5,7 @@ local g = vim.g
 local home = vim.env.HOME
 
 -- Autocmds
-vim.cmd([[
+vim.cmd [[
 autocmd BufReadPost ~/School/* setlocal foldlevel=3
 autocmd BufReadPost ~/Coding/Notes/* setlocal foldlevel=3
 autocmd BufReadPost ~/Notes/* setlocal foldlevel=3
@@ -13,7 +13,7 @@ autocmd FileType nix setlocal shiftwidth=2
 autocmd FileType norg setlocal shiftwidth=2
 autocmd FileType lua setlocal shiftwidth=2
 
-]])
+]]
 -- autocmd VimEnter ~/Coding/* execute 'Neorg workspace Coding'
 -- autocmd VimEnter ~/Notes/* execute 'Neorg workspace Notes'
 -- augroup MyColors
@@ -44,44 +44,44 @@ local opts = { silent = true, noremap = true }
 -- map("n", "<C-j>", "<C-w>j", opts)
 -- map("n", "<C-k>", "<C-w>k", opts)
 -- map("n", "<C-l>", "<C-w>l", opts)
-map("n", "<Esc>", ":noh <CR>", opts)
+map('n', '<Esc>', ':noh <CR>', opts)
 -- map('n', '<C-f>', ':HopWord <CR>', opts)
 -- map('n', '<C-g>', ':Telescope live_grep <CR>', opts)
 -- map('n', '<C-f>', ':Telescope find_files <CR>', opts)
 -- map('n', '<C-b>', ':NeoTreeFocusToggle <CR>', opts)
-map("n", "j", "gj", opts)
-map("n", "k", "gk", opts)
-map("n", ";", ":", { noremap = true })
+map('n', 'j', 'gj', opts)
+map('n', 'k', 'gk', opts)
+map('n', ';', ':', { noremap = true })
 
 -- map leader keys
-map("n", " ", "<Nop>", opts)
-g.mapleader = " "
-g.maplocalleader = ","
+map('n', ' ', '<Nop>', opts)
+g.mapleader = ' '
+g.maplocalleader = ','
 
 -- vimtex viewer
-g.vimtex_view_method = "zathura"
+g.vimtex_view_method = 'zathura'
 
 -- set message level
 g.cmdheight = 2
 
 -- Set folds
-o.foldmethod = "expr"
+o.foldmethod = 'expr'
 o.foldlevel = 99
 o.foldnestmax = 3
-o.foldexpr = "nvim_treesitter#foldexpr()" -- Without these lines, I wouldn't be able to fold things (like in Neorg)
+o.foldexpr = 'nvim_treesitter#foldexpr()' -- Without these lines, I wouldn't be able to fold things (like in Neorg)
 
 -- Set concealer settings
 o.conceallevel = 2
 
 -- Undo history
 o.undofile = true
-o.undodir = home .. "/.local/share/nvim/undodir"
+o.undodir = home .. '/.local/share/nvim/undodir'
 o.undolevels = 3000
 
 -- Performance
 o.lazyredraw = false
-o.shell = "zsh"
-o.shadafile = "NONE"
+o.shell = 'zsh'
+o.shadafile = 'NONE'
 
 -- Colors
 o.termguicolors = true
@@ -98,10 +98,10 @@ o.expandtab = true
 o.scrolloff = 3
 
 -- Set clipboard to use system clipboard
-o.clipboard = "unnamedplus"
+o.clipboard = 'unnamedplus'
 
 -- Use mouse
-o.mouse = "a"
+o.mouse = 'a'
 
 -- Nicer UI settings
 o.cursorline = true
@@ -109,14 +109,14 @@ o.relativenumber = true
 o.number = true
 
 -- Get rid of annoying viminfo file
-o.viminfo = ""
-o.viminfofile = "NONE"
+o.viminfo = ''
+o.viminfofile = 'NONE'
 
 -- Miscellaneous quality of life
 o.ignorecase = true
 o.ttimeoutlen = 5
 o.hidden = true
-o.shortmess = "atI"
+o.shortmess = 'atI'
 o.wrap = false
 o.backup = false
 o.writebackup = false
@@ -127,4 +127,4 @@ o.laststatus = 3
 o.pumheight = 6
 o.splitright = true
 o.splitbelow = true
-o.completeopt = "menuone,noselect"
+o.completeopt = 'menuone,noselect'
