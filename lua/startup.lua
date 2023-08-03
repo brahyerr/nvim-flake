@@ -1,2 +1,2 @@
--- either 'dashbord', 'evil' or 'startify'
-require("startup").setup({theme = "evil"})
+-- either 'dashboard', 'evil' or 'startify'
+require("startup").setup({theme = "dashboard"})
