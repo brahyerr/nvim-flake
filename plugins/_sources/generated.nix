@@ -29,42 +29,42 @@
   };
   comment = {
     pname = "comment";
-    version = "bacbed6346d1c5a095897f3fde3451a9a08e7f7d";
+    version = "d0cbbfb539898a275dc4398446ab0ae3b94819bf";
     src = fetchgit {
       url = "https://github.com/numToStr/Comment.nvim";
-      rev = "bacbed6346d1c5a095897f3fde3451a9a08e7f7d";
+      rev = "d0cbbfb539898a275dc4398446ab0ae3b94819bf";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-UWbo1lBotb9yKgGQMRmDRCmyV43pLMlxA5uoR12dQqc=";
+      sha256 = "sha256-6S5P2K5JzNj38rH5wz6O6G2P2w4Pt7CFg7/rdpsvCzc=";
     };
-    date = "2023-08-01";
+    date = "2023-08-02";
   };
   coq = {
     pname = "coq";
-    version = "417dd82718025fdcd0136c5d08129c150d743387";
+    version = "950df6bf2c818eca310933ab1b319fd8972c1805";
     src = fetchgit {
       url = "https://github.com/ms-jpq/coq.artifacts";
-      rev = "417dd82718025fdcd0136c5d08129c150d743387";
+      rev = "950df6bf2c818eca310933ab1b319fd8972c1805";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-pXIZju8vM62pOQKKW8Qn/IrB4d8sDnYjOwWsn57z/Xg=";
+      sha256 = "sha256-PlwOn5OGr7l27jBtMUAPllM9jLcWWMQZq+nwkB4rSWk=";
     };
-    date = "2023-07-30";
+    date = "2023-08-01";
   };
   coq_nvim = {
     pname = "coq_nvim";
-    version = "37725ba0dc2ec17a035a176548c1dd7f08cc690f";
+    version = "9c551921939d733ecc847ada2656fd82a9f0c35c";
     src = fetchgit {
       url = "https://github.com/ms-jpq/coq_nvim";
-      rev = "37725ba0dc2ec17a035a176548c1dd7f08cc690f";
+      rev = "9c551921939d733ecc847ada2656fd82a9f0c35c";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-Y0gU9YD1qBjK4TzyAutViw5RzZE9iv5GbOqC9nKis3M=";
+      sha256 = "sha256-Mg0GYiOClqPGy+0EwgViWfBS6eyiXMAnp4Ofp5RBcJU=";
     };
-    date = "2023-08-01";
+    date = "2023-08-02";
   };
   crates = {
     pname = "crates";
@@ -287,6 +287,19 @@
     };
     date = "2023-08-01";
   };
+  oxocarbon = {
+    pname = "oxocarbon";
+    version = "12a7507f1cd5ac6edb890d12268e4444a35956f2";
+    src = fetchgit {
+      url = "https://github.com/nyoom-engineering/oxocarbon.nvim";
+      rev = "12a7507f1cd5ac6edb890d12268e4444a35956f2";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sha256 = "sha256-OcCplmC62wkVxk5vuutbMD/4usWBAD/Qd96A7s2cylA=";
+    };
+    date = "2023-06-06";
+  };
   plenary = {
     pname = "plenary";
     version = "267282a9ce242bbb0c5dc31445b6d353bed978bb";
@@ -328,29 +341,29 @@
   };
   toggle-term = {
     pname = "toggle-term";
-    version = "00c13dccc78c09fa5da4c5edda990a363e75035e";
+    version = "0e4e89aff78ad178e1f3cf5d565a6b4155fbb45b";
     src = fetchgit {
       url = "https://github.com/akinsho/toggleterm.nvim";
-      rev = "00c13dccc78c09fa5da4c5edda990a363e75035e";
+      rev = "0e4e89aff78ad178e1f3cf5d565a6b4155fbb45b";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-/sUulN93nRHa3Je+tXr8/i1cgCrd/wtrvMPkjG5Ofzs=";
+      sha256 = "sha256-LrvFFJs9ZGrAZbRdon/CdOyjSSKdolo5NfnU8vSReF0=";
     };
-    date = "2023-07-17";
+    date = "2023-08-02";
   };
   treesitter = {
     pname = "treesitter";
-    version = "4c4d586a05e236d8199ab6faab8cb733a9b5bd24";
+    version = "80aee02921085435b04e880cabd1fbe29f6da99a";
     src = fetchgit {
       url = "https://github.com/nvim-treesitter/nvim-treesitter";
-      rev = "4c4d586a05e236d8199ab6faab8cb733a9b5bd24";
+      rev = "80aee02921085435b04e880cabd1fbe29f6da99a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-hhpIBllREEoSfR5Eff5ymiTzaqNYdHgp/NfwdY73SBI=";
+      sha256 = "sha256-nxCR4jhPWGfgUlT9wJ//a8GizNS7krRmFMjvoTq2IuU=";
     };
-    date = "2023-08-01";
+    date = "2023-08-02";
   };
   treesitter-context = {
     pname = "treesitter-context";
