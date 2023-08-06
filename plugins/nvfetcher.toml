@@ -1,6 +1,6 @@
-# [moonfly]
-# src.git = "https://github.com/bluz71/vim-moonfly-colors"
-# fetch.git = "https://github.com/bluz71/vim-moonfly-colors"
+[moonfly]
+src.git = "https://github.com/bluz71/vim-moonfly-colors"
+fetch.git = "https://github.com/bluz71/vim-moonfly-colors"
 
 [oxocarbon]
 src.git = "https://github.com/nyoom-engineering/oxocarbon.nvim"

@@ -49,7 +49,7 @@
               ++ lib.mapAttrsToList (
                 _: value: (pkgs.vimUtils.buildVimPluginFrom2Nix value)
               )
-              (import ./plugins/_sources/generated.nix {inherit (pkgs) fetchgit fetchurl fetchFromGitHub dockerTools;});
+              (import ./plugins/_sources/generated.nix {inherit (pkgs) fetchgit fetchurl fetchFromGitHub;});
             withPython3 = true;
             extraPython3Packages = _: [];
             withRuby = true;

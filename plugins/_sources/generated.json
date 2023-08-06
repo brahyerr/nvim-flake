@@ -1,7 +1,6 @@
 {
     "bufdelete-nvim": {
         "cargoLocks": null,
-        "date": "2023-06-29",
         "extract": null,
         "name": "bufdelete-nvim",
         "passthru": null,
@@ -20,7 +19,6 @@
     },
     "bufferline-lua": {
         "cargoLocks": null,
-        "date": "2023-07-24",
         "extract": null,
         "name": "bufferline-lua",
         "passthru": null,
@@ -39,7 +37,6 @@
     },
     "comment": {
         "cargoLocks": null,
-        "date": "2023-08-02",
         "extract": null,
         "name": "comment",
         "passthru": null,
@@ -58,7 +55,6 @@
     },
     "conjure": {
         "cargoLocks": null,
-        "date": "2023-07-11",
         "extract": null,
         "name": "conjure",
         "passthru": null,
@@ -77,7 +73,6 @@
     },
     "coq": {
         "cargoLocks": null,
-        "date": "2023-08-01",
         "extract": null,
         "name": "coq",
         "passthru": null,
@@ -87,16 +82,15 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "950df6bf2c818eca310933ab1b319fd8972c1805",
-            "sha256": "sha256-PlwOn5OGr7l27jBtMUAPllM9jLcWWMQZq+nwkB4rSWk=",
+            "rev": "bdd641b4c661b38635c4bda0c1a20f9dcfc0e9b6",
+            "sha256": "sha256-LumH1jQuTEZJvTuXRGpaFDz3Pt2mTPcn8gnnHy2puHk=",
             "type": "git",
             "url": "https://github.com/ms-jpq/coq.artifacts"
         },
-        "version": "950df6bf2c818eca310933ab1b319fd8972c1805"
+        "version": "bdd641b4c661b38635c4bda0c1a20f9dcfc0e9b6"
     },
     "coq_3p": {
         "cargoLocks": null,
-        "date": "2023-07-30",
         "extract": null,
         "name": "coq_3p",
         "passthru": null,
@@ -106,16 +100,15 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "8dfe289b5bde380be5cf7ffb51487099ba312d7a",
-            "sha256": "sha256-GkxYT5DwtbIooP/ZTwnEinqSgp1NLgr25L5GLlSB9YY=",
+            "rev": "6333c8984f61189f7a94538c1142431836512c7e",
+            "sha256": "sha256-C12CLX/HSsiMziWZWyMeYn4ZbxZ1u1V4QDuLUf1IXbE=",
             "type": "git",
             "url": "https://github.com/ms-jpq/coq.thirdparty"
         },
-        "version": "8dfe289b5bde380be5cf7ffb51487099ba312d7a"
+        "version": "6333c8984f61189f7a94538c1142431836512c7e"
     },
     "coq_nvim": {
         "cargoLocks": null,
-        "date": "2023-08-03",
         "extract": null,
         "name": "coq_nvim",
         "passthru": null,
@@ -125,16 +118,15 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "f066e83d886a2525c592b421be20d91307a1c9ec",
-            "sha256": "sha256-7PyYRp6SsMg7JWAbAJPWaXajO5MQZIV8ewbIw0Q1F4Q=",
+            "rev": "3d202065fd34701618e049a6bdcf8634121877c6",
+            "sha256": "sha256-WZ3NOFgnXedb2QPqyBQ6QoTVeVfEiviyRppFzwjkU4Q=",
             "type": "git",
             "url": "https://github.com/ms-jpq/coq_nvim"
         },
-        "version": "f066e83d886a2525c592b421be20d91307a1c9ec"
+        "version": "3d202065fd34701618e049a6bdcf8634121877c6"
     },
     "crates": {
         "cargoLocks": null,
-        "date": "2023-07-02",
         "extract": null,
         "name": "crates",
         "passthru": null,
@@ -153,7 +145,6 @@
     },
     "gitsigns": {
         "cargoLocks": null,
-        "date": "2023-07-27",
         "extract": null,
         "name": "gitsigns",
         "passthru": null,
@@ -163,35 +154,15 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "5d73da785a3c05fd63ac31769079db05169a6ec7",
-            "sha256": "sha256-kraK0GP5aLGbh1eVZCm41D6BztjFxthSXGnE5CxhrZs=",
+            "rev": "31178496552584e84fa9e74e087dec1f6c347f5d",
+            "sha256": "sha256-FjPmzsE87AZeOGcLjpYzfF2h5MfIVy7inecZ4dkE9kg=",
             "type": "git",
             "url": "https://github.com/lewis6991/gitsigns.nvim"
         },
-        "version": "5d73da785a3c05fd63ac31769079db05169a6ec7"
-    },
-    "hardtime": {
-        "cargoLocks": null,
-        "date": "2023-07-27",
-        "extract": null,
-        "name": "hardtime",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "902a2e75d73bc1f6e5cf75da8c53137c566a6101",
-            "sha256": "sha256-CI9VEJiu7ljusldxaXwUzb5GXxdOtkOWpMEwv5yU4gM=",
-            "type": "git",
-            "url": "https://github.com/m4xshen/hardtime.nvim"
-        },
-        "version": "902a2e75d73bc1f6e5cf75da8c53137c566a6101"
+        "version": "31178496552584e84fa9e74e087dec1f6c347f5d"
     },
     "indent-blankline": {
         "cargoLocks": null,
-        "date": "2023-07-07",
         "extract": null,
         "name": "indent-blankline",
         "passthru": null,
@@ -210,7 +181,6 @@
     },
     "lazy-lsp": {
         "cargoLocks": null,
-        "date": "2023-07-10",
         "extract": null,
         "name": "lazy-lsp",
         "passthru": null,
@@ -229,7 +199,6 @@
     },
     "lspkind": {
         "cargoLocks": null,
-        "date": "2023-05-05",
         "extract": null,
         "name": "lspkind",
         "passthru": null,
@@ -248,7 +217,6 @@
     },
     "lualine": {
         "cargoLocks": null,
-        "date": "2023-08-03",
         "extract": null,
         "name": "lualine",
         "passthru": null,
@@ -265,9 +233,26 @@
         },
         "version": "45e27ca739c7be6c49e5496d14fcf45a303c3a63"
     },
+    "moonfly": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "moonfly",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "0f071ec406925db98434b34ca7df7dedc6187b09",
+            "sha256": "sha256-qwZwj4xJ27Db5Q+mM+f2ourbX+vIEaaDi2MrMSKrqTM=",
+            "type": "git",
+            "url": "https://github.com/bluz71/vim-moonfly-colors"
+        },
+        "version": "0f071ec406925db98434b34ca7df7dedc6187b09"
+    },
     "neogen": {
         "cargoLocks": null,
-        "date": "2023-06-09",
         "extract": null,
         "name": "neogen",
         "passthru": null,
@@ -286,7 +271,6 @@
     },
     "neorg": {
         "cargoLocks": null,
-        "date": "2023-08-01",
         "extract": null,
         "name": "neorg",
         "passthru": null,
@@ -296,16 +280,15 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "1c41592ec975189c79987aa32228778c111eb67f",
-            "sha256": "sha256-cw3B5fh1jZ2iEQDGD2j+HrkcOQ1oAAJxmXVdyDTqqRc=",
+            "rev": "0b3df8633cc1cbb3ffd6f34d4e9073fd6f5083ab",
+            "sha256": "sha256-wN3Vltj5y6EN9dHU1Kv2c6BNMCl6IvgpSLnIgbV0SEs=",
             "type": "git",
             "url": "https://github.com/nvim-neorg/neorg"
         },
-        "version": "1c41592ec975189c79987aa32228778c111eb67f"
+        "version": "0b3df8633cc1cbb3ffd6f34d4e9073fd6f5083ab"
     },
     "neorg-telescope": {
         "cargoLocks": null,
-        "date": "2023-08-01",
         "extract": null,
         "name": "neorg-telescope",
         "passthru": null,
@@ -315,16 +298,51 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d803ae41c40e3dfa2ac11a4956497436b101ce80",
-            "sha256": "sha256-4wJuzJ09gJMNoxGwQ5GVbdE9zr7liwJI8eGMWodsJe4=",
+            "rev": "1310d4aaefd8149c9839bbe1d5610e94389e2f0e",
+            "sha256": "sha256-jVfpSWPjSSbbsQns8n7TaAiSJLZ9EPEYVl8mibKH8Mw=",
             "type": "git",
             "url": "https://github.com/nvim-neorg/neorg-telescope"
         },
-        "version": "d803ae41c40e3dfa2ac11a4956497436b101ce80"
+        "version": "1310d4aaefd8149c9839bbe1d5610e94389e2f0e"
+    },
+    "noice": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "noice",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "894db25ec726d32047799d4d0a982b701bec453b",
+            "sha256": "sha256-Zca6meJkfF4fl17Y+6s77GYrqnhkkzIYW73vAhKg7e4=",
+            "type": "git",
+            "url": "https://github.com/folke/noice.nvim"
+        },
+        "version": "894db25ec726d32047799d4d0a982b701bec453b"
+    },
+    "notify": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "notify",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "ea9c8ce7a37f2238f934e087c255758659948e0f",
+            "sha256": "sha256-Rr2tzuEr06M9ZbvQbC07qcxkyjFJFYdABwRpYelKBFI=",
+            "type": "git",
+            "url": "https://github.com/rcarriga/nvim-notify"
+        },
+        "version": "ea9c8ce7a37f2238f934e087c255758659948e0f"
     },
     "nui": {
         "cargoLocks": null,
-        "date": "2023-07-20",
         "extract": null,
         "name": "nui",
         "passthru": null,
@@ -343,7 +361,6 @@
     },
     "null-ls": {
         "cargoLocks": null,
-        "date": "2023-07-06",
         "extract": null,
         "name": "null-ls",
         "passthru": null,
@@ -362,7 +379,6 @@
     },
     "nvim-colorzier": {
         "cargoLocks": null,
-        "date": "2020-06-11",
         "extract": null,
         "name": "nvim-colorzier",
         "passthru": null,
@@ -381,7 +397,6 @@
     },
     "nvim-lspconfig": {
         "cargoLocks": null,
-        "date": "2023-08-01",
         "extract": null,
         "name": "nvim-lspconfig",
         "passthru": null,
@@ -391,16 +406,15 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "a59d74e12340242c0735666fb2e91afdbe6f2496",
-            "sha256": "sha256-X3LdOeCZoxNH5hHAYQntLJF9HCPs1yKO3qiHqVhE7DY=",
+            "rev": "c0de180ddb3df36feef8ac3607670894d0e7497f",
+            "sha256": "sha256-jLpzJQcPGOhXBfLSzw2jOgmwI8L7gcIe8y2w0L2qPkg=",
             "type": "git",
             "url": "https://github.com/neovim/nvim-lspconfig"
         },
-        "version": "a59d74e12340242c0735666fb2e91afdbe6f2496"
+        "version": "c0de180ddb3df36feef8ac3607670894d0e7497f"
     },
     "oxocarbon": {
         "cargoLocks": null,
-        "date": "2023-06-06",
         "extract": null,
         "name": "oxocarbon",
         "passthru": null,
@@ -419,7 +433,6 @@
     },
     "parinfer": {
         "cargoLocks": null,
-        "date": "2023-04-08",
         "extract": null,
         "name": "parinfer",
         "passthru": null,
@@ -438,7 +451,6 @@
     },
     "plenary": {
         "cargoLocks": null,
-        "date": "2023-07-17",
         "extract": null,
         "name": "plenary",
         "passthru": null,
@@ -457,7 +469,6 @@
     },
     "smart-splits": {
         "cargoLocks": null,
-        "date": "2023-06-26",
         "extract": null,
         "name": "smart-splits",
         "passthru": null,
@@ -476,7 +487,6 @@
     },
     "startup": {
         "cargoLocks": null,
-        "date": "2023-03-13",
         "extract": null,
         "name": "startup",
         "passthru": null,
@@ -495,7 +505,6 @@
     },
     "telescope": {
         "cargoLocks": null,
-        "date": "2023-08-01",
         "extract": null,
         "name": "telescope",
         "passthru": null,
@@ -505,16 +514,15 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d2e17ba18a6840b7e7079764b282616c3188e0de",
-            "sha256": "sha256-RtnsN0lssWAAXYPnzxqdVuALGfnrsMCrqRs7cQyP6TU=",
+            "rev": "5a3fb8a012f9fcf777ba8deeae1c759362413efa",
+            "sha256": "sha256-//rBQ9hNAun8XNToBOoNXi0vvWJFDv2O5JI2b2cvvCc=",
             "type": "git",
             "url": "https://github.com/nvim-telescope/telescope.nvim"
         },
-        "version": "d2e17ba18a6840b7e7079764b282616c3188e0de"
+        "version": "5a3fb8a012f9fcf777ba8deeae1c759362413efa"
     },
     "telescope-file-browser": {
         "cargoLocks": null,
-        "date": "2023-07-30",
         "extract": null,
         "name": "telescope-file-browser",
         "passthru": null,
@@ -533,7 +541,6 @@
     },
     "toggle-term": {
         "cargoLocks": null,
-        "date": "2023-08-03",
         "extract": null,
         "name": "toggle-term",
         "passthru": null,
@@ -552,7 +559,6 @@
     },
     "treesitter": {
         "cargoLocks": null,
-        "date": "2023-08-03",
         "extract": null,
         "name": "treesitter",
         "passthru": null,
@@ -562,16 +568,15 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "131f665f9008d69d130f76f77603886e75c4b146",
-            "sha256": "sha256-3bH1sPhI0AMnefwaF9xXZx9HZioX8wdSliTZTpvuKsE=",
+            "rev": "8d5e5dc40a4c480483690777cefb8cf67e710702",
+            "sha256": "sha256-pauA8FYe7v7gY0PJ9LbAAkPbtcbxlxg6wFmHz3vYF7Y=",
             "type": "git",
             "url": "https://github.com/nvim-treesitter/nvim-treesitter"
         },
-        "version": "131f665f9008d69d130f76f77603886e75c4b146"
+        "version": "8d5e5dc40a4c480483690777cefb8cf67e710702"
     },
     "treesitter-context": {
         "cargoLocks": null,
-        "date": "2023-08-03",
         "extract": null,
         "name": "treesitter-context",
         "passthru": null,
@@ -590,7 +595,6 @@
     },
     "trouble": {
         "cargoLocks": null,
-        "date": "2023-07-29",
         "extract": null,
         "name": "trouble",
         "passthru": null,
@@ -609,7 +613,6 @@
     },
     "vim-nix": {
         "cargoLocks": null,
-        "date": "2023-07-29",
         "extract": null,
         "name": "vim-nix",
         "passthru": null,
@@ -628,7 +631,6 @@
     },
     "vimtex": {
         "cargoLocks": null,
-        "date": "2023-07-25",
         "extract": null,
         "name": "vimtex",
         "passthru": null,
@@ -647,7 +649,6 @@
     },
     "web-devicons": {
         "cargoLocks": null,
-        "date": "2023-07-16",
         "extract": null,
         "name": "web-devicons",
         "passthru": null,
@@ -657,16 +658,15 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "efbfed0567ef4bfac3ce630524a0f6c8451c5534",
-            "sha256": "sha256-FtEJBhqvs+c/Rvy4qXf3iyoMTTKrDBvQw5g63n4KEYo=",
+            "rev": "eb8f80f30fd5e9a6176dee5c46661ebd7437ac46",
+            "sha256": "sha256-NZH2NyiMaLWOsJFgZPZq3OP+F5uzvfPo76czEYiZuII=",
             "type": "git",
             "url": "https://github.com/nvim-tree/nvim-web-devicons"
         },
-        "version": "efbfed0567ef4bfac3ce630524a0f6c8451c5534"
+        "version": "eb8f80f30fd5e9a6176dee5c46661ebd7437ac46"
     },
     "which-key": {
         "cargoLocks": null,
-        "date": "2023-07-28",
         "extract": null,
         "name": "which-key",
         "passthru": null,
@@ -685,7 +685,6 @@
     },
     "yuck-vim": {
         "cargoLocks": null,
-        "date": "2022-10-29",
         "extract": null,
         "name": "yuck-vim",
         "passthru": null,

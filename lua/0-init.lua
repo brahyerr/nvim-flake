@@ -8,7 +8,7 @@ local home = vim.env.HOME
 vim.cmd [[
 autocmd BufReadPost ~/School/* setlocal foldlevel=3
 autocmd BufReadPost ~/Coding/Notes/* setlocal foldlevel=3
-autocmd BufReadPost ~/Notes/* setlocal foldlevel=3
+autocmd BufReadPost ~/Notes/* setlocal foldlevel=2
 autocmd FileType nix setlocal shiftwidth=2
 autocmd FileType norg setlocal shiftwidth=2
 autocmd FileType lua setlocal shiftwidth=2
@@ -62,7 +62,7 @@ g.cmdheight = 2
 
 -- Set folds
 o.foldmethod = 'expr'
-o.foldlevel = 99
+o.foldlevel = 2
 o.foldnestmax = 3
 o.foldexpr = 'nvim_treesitter#foldexpr()' -- Without these lines, I wouldn't be able to fold things (like in Neorg)
 
