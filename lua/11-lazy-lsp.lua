@@ -10,7 +10,7 @@ require('lazy-lsp').setup {
   preferred_servers = {
     haskell = { 'hls' },
     rust = { 'rust_analyzer' },
-    nix = { 'nixd' },
+    nix = { 'statix' },
   },
   -- Default config passed to all servers to specify on_attach callback and other options.
   default_config = {
