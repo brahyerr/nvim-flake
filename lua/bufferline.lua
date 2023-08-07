@@ -11,7 +11,7 @@ require('bufferline').setup {
       indicator_icon = '▎',
       style = 'icon',
     },
-    buffer_close_icon = '',
+    buffer_close_icon = '',
     modified_icon = '●',
     close_icon = '',
     left_trunc_marker = '',
@@ -20,8 +20,11 @@ require('bufferline').setup {
     max_name_length = 18,
     max_prefix_length = 15,
     tab_size = 18,
-    show_buffer_icons = true,
+    show_buffer_icons = false,
     show_buffer_close_icons = true,
+    get_element_icon = function(buf)
+      return require('nvim-web-devicons').get_icon(buf.name, {default = false})   -- this doesnt work
+    end,
     show_close_icon = true,
     show_tab_indicators = true,
     persist_buffer_sort = true,
@@ -44,6 +47,7 @@ require('bufferline').setup {
     numbers = function(opts)
       return string.format('%s·%s', opts.raise(opts.id), opts.lower(opts.ordinal))
     end,
+    
   },
 }
 vim.keymap.set('n', '<leader>b1', '<Cmd>BufferLineGoToBuffer 1<CR>')
