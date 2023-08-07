@@ -24,7 +24,16 @@ require('lualine').setup {
       symbols = {error = ' ', warn = ' ', info = ' ', hint = ' '},
     }},
     lualine_c = {'filename'},
-    lualine_x = {'encoding', 'fileformat', 'filetype'},
+    lualine_x = {
+      'encoding',
+      {
+        'fileformat',
+        symbols = {
+          unix = 'unix',
+        },
+      },
+      'filetype'
+    },
     lualine_y = {'progress'},
     lualine_z = {'location'}
   },
