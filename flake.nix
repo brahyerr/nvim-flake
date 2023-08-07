@@ -65,7 +65,6 @@
                   (pkgs)
                   #nix
                   
-                  nixd
                   deadnix
                   statix
                   alejandra
