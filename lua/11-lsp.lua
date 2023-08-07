@@ -29,10 +29,6 @@ null_ls.setup {
   },
 }
 
--- lspconfig
-local lspc = require 'lspconfig'
-local coq = require 'coq'
-
 -- SECTION: lspkind
 
 require('lspkind').init {
