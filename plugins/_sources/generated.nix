@@ -144,19 +144,6 @@
     };
     date = "2023-07-10";
   };
-  lightline = {
-    pname = "lightline";
-    version = "b1e91b41f5028d65fa3d31a425ff21591d5d957f";
-    src = fetchgit {
-      url = "https://github.com/itchyny/lightline.vim";
-      rev = "b1e91b41f5028d65fa3d31a425ff21591d5d957f";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sha256 = "sha256-NjNdaona4H4y+lBNDQ9Ygeytc/lvXy80QJw3MmWDYHU=";
-    };
-    date = "2022-10-05";
-  };
   lspkind = {
     pname = "lspkind";
     version = "57610d5ab560c073c465d6faf0c19f200cb67e6e";

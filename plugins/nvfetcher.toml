@@ -98,10 +98,6 @@ fetch.git = "https://github.com/saecki/crates.nvim"
 src.git = "https://github.com/nvim-lualine/lualine.nvim"
 fetch.git = "https://github.com/nvim-lualine/lualine.nvim"
 
-[lightline]
-src.git = "https://github.com/itchyny/lightline.vim"
-fetch.git = "https://github.com/itchyny/lightline.vim"
-
 [neogen]
 src.git = "https://github.com/danymat/neogen"
 fetch.git = "https://github.com/danymat/neogen"

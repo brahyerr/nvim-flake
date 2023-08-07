@@ -208,25 +208,6 @@
         },
         "version": "c35cb31854f87aece550404103d6ca921b2689aa"
     },
-    "lightline": {
-        "cargoLocks": null,
-        "date": "2022-10-05",
-        "extract": null,
-        "name": "lightline",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "b1e91b41f5028d65fa3d31a425ff21591d5d957f",
-            "sha256": "sha256-NjNdaona4H4y+lBNDQ9Ygeytc/lvXy80QJw3MmWDYHU=",
-            "type": "git",
-            "url": "https://github.com/itchyny/lightline.vim"
-        },
-        "version": "b1e91b41f5028d65fa3d31a425ff21591d5d957f"
-    },
     "lspkind": {
         "cargoLocks": null,
         "date": "2023-05-05",
