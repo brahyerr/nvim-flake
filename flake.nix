@@ -66,7 +66,7 @@
                   #nix
                   
                   nixd
-                  deadnix
+                  # deadnix
                   statix
                   alejandra
                   nil

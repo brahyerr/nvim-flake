@@ -23,7 +23,7 @@ null_ls.setup {
     nb.formatting.alejandra,
     -- nb.diagnostics.eslint,   -- not needed, not using node
     -- nb.diagnostics.cppcheck, -- not needed, not using cpp
-    nb.diagnostics.deadnix,
+    nb.diagnostics.statix,
     nb.code_actions.statix,
     -- nb.completion.spell,
   },

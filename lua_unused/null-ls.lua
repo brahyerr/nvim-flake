@@ -9,7 +9,7 @@ null_ls.setup {
     -- nb.diagnostics.cppcheck, -- not needed, not using cpp
     nb.diagnostics.statix,
     -- nb.diagnostics.deadnix,
-    -- nb.code_actions.statix,
+    nb.code_actions.statix,
     nb.completion.spell,
   },
 }
