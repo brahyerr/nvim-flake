@@ -1,14 +1,6 @@
 local splits = require 'smart-splits'
 local map = vim.keymap.set
 
-function Split()
-  vim.cmd('split')
-end
-
-function Vsplit()
-  vim.cmd('vsplit')
-end
-
 splits.setup()
 
 -- these keymaps will also accept a range,
@@ -28,5 +20,7 @@ map('n', '<leader><leader>j', splits.swap_buf_down)
 map('n', '<leader><leader>k', splits.swap_buf_up)
 map('n', '<leader><leader>l', splits.swap_buf_right)
 -- make split
-map('n', '<leader>ss', Split)
-map('n', '<leader>sv', Vsplit)
+-- map('n', '<leader>ss', Split)
+-- map('n', '<leader>sv', Vsplit)
+map("n", "<leader>ss", "<cmd>split<CR>")
+map("n", "<leader>sv", "<cmd>vsplit<CR>")
