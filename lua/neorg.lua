@@ -33,7 +33,7 @@ require('neorg').setup {
       config = {
         workspaces = {
           Coding = '~/Coding',
-          Notes = '~/Notes',
+          Fitness = '~/School/fitness',
           School = '~/School',
         },
         default_workspace = 'School',
