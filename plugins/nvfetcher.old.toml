@@ -14,6 +14,10 @@ fetch.git = "https://github.com/nvim-neorg/neorg"
 src.git = "https://github.com/nvim-neorg/neorg-telescope"
 fetch.git = "https://github.com/nvim-neorg/neorg-telescope"
 
+# [neo-tree]
+# src.git = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+# fetch.git = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+
 [web-devicons]
 src.git = "https://github.com/nvim-tree/nvim-web-devicons"
 fetch.git = "https://github.com/nvim-tree/nvim-web-devicons"
@@ -62,6 +66,14 @@ fetch.git = "https://github.com/nvim-telescope/telescope.nvim"
 src.git = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
 fetch.git = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
 
+# [hop]
+# src.git = "https://github.com/phaazon/hop.nvim"
+# fetch.git = "https://github.com/phaazon/hop.nvim"
+
+# [hardtime]
+# src.git = "https://github.com/m4xshen/hardtime.nvim"
+# fetch.git = "https://github.com/m4xshen/hardtime.nvim"
+
 [gitsigns]
 src.git = "https://github.com/lewis6991/gitsigns.nvim"
 fetch.git = "https://github.com/lewis6991/gitsigns.nvim"
@@ -101,6 +113,14 @@ fetch.git = "https://github.com/folke/noice.nvim"
 [nui]
 src.git = "https://github.com/MunifTanjim/nui.nvim"
 fetch.git = "https://github.com/MunifTanjim/nui.nvim"
+
+# [clipboard-image]
+# src.git = "https://github.com/postfen/clipboard-image.nvim"
+# fetch.git = "https://github.com/postfen/clipboard-image.nvim"
+
+# [hologram.nvim]
+# src.git = "https://github.com/edluffy/hologram.nvim"
+# fetch.git = "https://github.com/edluffy/hologram.nvim"
 
 [treesitter]
 src.git = "https://github.com/nvim-treesitter/nvim-treesitter"

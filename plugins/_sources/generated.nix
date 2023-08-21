@@ -16,16 +16,16 @@
   };
   bufferline-lua = {
     pname = "bufferline-lua";
-    version = "99f0932365b34e22549ff58e1bea388465d15e99";
+    version = "417b303328118b6d836ae330142e88771c48a8a3";
     src = fetchgit {
       url = "https://github.com/akinsho/bufferline.nvim";
-      rev = "99f0932365b34e22549ff58e1bea388465d15e99";
+      rev = "417b303328118b6d836ae330142e88771c48a8a3";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-MiQsYeLgADCaUf1x88q/7gO17F992HMlt1pu9dYEmp0=";
+      sha256 = "sha256-jsjT56YWsFb9Qr/mjmwpOm9thYkScnSCOZ+MPzaz1DM=";
     };
-    date = "2023-07-24";
+    date = "2023-08-11";
   };
   comment = {
     pname = "comment";
@@ -42,55 +42,55 @@
   };
   conjure = {
     pname = "conjure";
-    version = "2482871cbe0d1b85d331465cf7f065d5d2a7e2ac";
+    version = "0d9b823db06cc11e6115b54297f690dff10c0299";
     src = fetchgit {
       url = "https://github.com/Olical/conjure";
-      rev = "2482871cbe0d1b85d331465cf7f065d5d2a7e2ac";
+      rev = "0d9b823db06cc11e6115b54297f690dff10c0299";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-700AhkKvc1X/Q/+YaLuDFlDzNKcd3kuXbMb9NIG7tMo=";
+      sha256 = "sha256-Rae5SihnvnalFtNZ+VInUBRLBTilFGUj797lgKVw92g=";
     };
-    date = "2023-07-11";
+    date = "2023-08-04";
   };
   coq = {
     pname = "coq";
-    version = "bdd641b4c661b38635c4bda0c1a20f9dcfc0e9b6";
+    version = "2068660517dc7a3e46d15ae1f349464d3120d3a4";
     src = fetchgit {
       url = "https://github.com/ms-jpq/coq.artifacts";
-      rev = "bdd641b4c661b38635c4bda0c1a20f9dcfc0e9b6";
+      rev = "2068660517dc7a3e46d15ae1f349464d3120d3a4";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-LumH1jQuTEZJvTuXRGpaFDz3Pt2mTPcn8gnnHy2puHk=";
+      sha256 = "sha256-nGyieDX0F259/Q06PApelGPTj1EZsjWW2cFZhwkO+QY=";
     };
-    date = "2023-08-06";
+    date = "2023-08-13";
   };
   coq_3p = {
     pname = "coq_3p";
-    version = "6333c8984f61189f7a94538c1142431836512c7e";
+    version = "61110d912431713240633322fe9bb57f5668c23d";
     src = fetchgit {
       url = "https://github.com/ms-jpq/coq.thirdparty";
-      rev = "6333c8984f61189f7a94538c1142431836512c7e";
+      rev = "61110d912431713240633322fe9bb57f5668c23d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-C12CLX/HSsiMziWZWyMeYn4ZbxZ1u1V4QDuLUf1IXbE=";
+      sha256 = "sha256-JuNNEQjC10g9kTS8Sd3RavnDs+8qBg2wjiDJ5/C8QPI=";
     };
-    date = "2023-08-06";
+    date = "2023-08-13";
   };
   coq_nvim = {
     pname = "coq_nvim";
-    version = "3d202065fd34701618e049a6bdcf8634121877c6";
+    version = "8050a9baa964f71594f81358ce84d38cee1cd0ad";
     src = fetchgit {
       url = "https://github.com/ms-jpq/coq_nvim";
-      rev = "3d202065fd34701618e049a6bdcf8634121877c6";
+      rev = "8050a9baa964f71594f81358ce84d38cee1cd0ad";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-WZ3NOFgnXedb2QPqyBQ6QoTVeVfEiviyRppFzwjkU4Q=";
+      sha256 = "sha256-KQysN5DEzl1G07Kwse6yOcexzvF3VjQW2hNxLYp6/GE=";
     };
-    date = "2023-08-06";
+    date = "2023-08-18";
   };
   crates = {
     pname = "crates";
@@ -107,16 +107,16 @@
   };
   gitsigns = {
     pname = "gitsigns";
-    version = "bae45ef449d8811061cc940459e70e883a3aa83a";
+    version = "749267aaa863c30d721c9913699c5d94e0c07dd3";
     src = fetchgit {
       url = "https://github.com/lewis6991/gitsigns.nvim";
-      rev = "bae45ef449d8811061cc940459e70e883a3aa83a";
+      rev = "749267aaa863c30d721c9913699c5d94e0c07dd3";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-+pERMBPBpPjuMiLU3rXgGEZDdSOHmNGNtl26dDjERls=";
+      sha256 = "sha256-xMcR+5hN3SRXNewCfSGNXwaKxaHhzGWCBjb2n19MTPs=";
     };
-    date = "2023-08-09";
+    date = "2023-08-19";
   };
   indent-blankline = {
     pname = "indent-blankline";
@@ -133,16 +133,16 @@
   };
   lazy-lsp = {
     pname = "lazy-lsp";
-    version = "c35cb31854f87aece550404103d6ca921b2689aa";
+    version = "4b10237a7f9e5ab678eb384a4266e2e28e8472f7";
     src = fetchgit {
       url = "https://github.com/dundalek/lazy-lsp.nvim";
-      rev = "c35cb31854f87aece550404103d6ca921b2689aa";
+      rev = "4b10237a7f9e5ab678eb384a4266e2e28e8472f7";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-kjfygsVKZAOU+h1GaPxSo26/UWxaqhSGQl4Ad/55jEY=";
+      sha256 = "sha256-zTupCULojjlLBgYuLeL86ugMR4bNONQp3us89PbXdOU=";
     };
-    date = "2023-07-10";
+    date = "2023-08-11";
   };
   lspkind = {
     pname = "lspkind";
@@ -172,16 +172,16 @@
   };
   moonfly = {
     pname = "moonfly";
-    version = "fc2bb33f847de9a63c49472adb1ef870b2b7f8a1";
+    version = "49a0f8aa5aa59af01b2305bb01d96ebd3a78f758";
     src = fetchgit {
       url = "https://github.com/bluz71/vim-moonfly-colors";
-      rev = "fc2bb33f847de9a63c49472adb1ef870b2b7f8a1";
+      rev = "49a0f8aa5aa59af01b2305bb01d96ebd3a78f758";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-+tHHwjGS7ZCWy5yOfKzD5znv9BUWU9A1+6f3mqSr/ao=";
+      sha256 = "sha256-2GwbNuuj7B0tvSdJjnP3pV9WTAxKvBUSIlOyKJ0hh1I=";
     };
-    date = "2023-08-09";
+    date = "2023-08-19";
   };
   neogen = {
     pname = "neogen";
@@ -198,16 +198,16 @@
   };
   neorg = {
     pname = "neorg";
-    version = "66e5a4e4ed7645590ac8388abdedb8f840b88f0d";
+    version = "f296a22864bbac0d94ad00fa18cc8231dbeaa1e3";
     src = fetchgit {
       url = "https://github.com/nvim-neorg/neorg";
-      rev = "66e5a4e4ed7645590ac8388abdedb8f840b88f0d";
+      rev = "f296a22864bbac0d94ad00fa18cc8231dbeaa1e3";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-l2GwmW9G05gxn40US1hY5p1YrUmuPcckmonBLaazc40=";
+      sha256 = "sha256-LdIhJfeqJ9RW96rgqnLy3bT/YhzfUx2FP2idmreApPU=";
     };
-    date = "2023-08-09";
+    date = "2023-08-14";
   };
   neorg-telescope = {
     pname = "neorg-telescope";
@@ -263,16 +263,16 @@
   };
   null-ls = {
     pname = "null-ls";
-    version = "db09b6c691def0038c456551e4e2772186449f35";
+    version = "0010ea927ab7c09ef0ce9bf28c2b573fc302f5a7";
     src = fetchgit {
       url = "https://github.com/jose-elias-alvarez/null-ls.nvim";
-      rev = "db09b6c691def0038c456551e4e2772186449f35";
+      rev = "0010ea927ab7c09ef0ce9bf28c2b573fc302f5a7";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-6KJtj9pbvBm6fOVpnyzO2fEVC+cVrw2XtZHOgq9ieIw=";
+      sha256 = "sha256-cWA0rzkOp/ekVKaFee7iea1lhnqKtWUIU+fW5M950wI=";
     };
-    date = "2023-07-06";
+    date = "2023-08-11";
   };
   nvim-colorzier = {
     pname = "nvim-colorzier";
@@ -289,16 +289,16 @@
   };
   nvim-lspconfig = {
     pname = "nvim-lspconfig";
-    version = "7c73a4dc44c3d62ee79ab9f03ba313251c0388d4";
+    version = "67f151e84daddc86cc65f5d935e592f76b9f4496";
     src = fetchgit {
       url = "https://github.com/neovim/nvim-lspconfig";
-      rev = "7c73a4dc44c3d62ee79ab9f03ba313251c0388d4";
+      rev = "67f151e84daddc86cc65f5d935e592f76b9f4496";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-2K2BPzZSpky1jvOyO1R2CQnDMptj9h9LwffJ2pOn7Ew=";
+      sha256 = "sha256-F+z9fgOAZuhxUI3Z4OU/gq2N8yB4AMHvjaPUXP2YtPM=";
     };
-    date = "2023-08-09";
+    date = "2023-08-19";
   };
   oxocarbon = {
     pname = "oxocarbon";
@@ -380,16 +380,16 @@
   };
   telescope-file-browser = {
     pname = "telescope-file-browser";
-    version = "6fe423eea6604c2fcbb906ff5f7e27f748a6ed87";
+    version = "ad7b637c72549713b9aaed7c4f9c79c62bcbdff0";
     src = fetchgit {
       url = "https://github.com/nvim-telescope/telescope-file-browser.nvim";
-      rev = "6fe423eea6604c2fcbb906ff5f7e27f748a6ed87";
+      rev = "ad7b637c72549713b9aaed7c4f9c79c62bcbdff0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-PVg0ZDqF4ABBJ24oF/9GSJkiJrXqcYX1GP0rgGXgk8E=";
+      sha256 = "sha256-iq2KyNU5U/j0zVvWg0q9TAXolHjbxL4d2GyMW/e1+Lo=";
     };
-    date = "2023-07-30";
+    date = "2023-08-13";
   };
   toggle-term = {
     pname = "toggle-term";
@@ -406,29 +406,29 @@
   };
   treesitter = {
     pname = "treesitter";
-    version = "898f9c13d60bd51bdf873e284177f98264f0954f";
+    version = "7c935d6bd5ecb36e7c6cf6678e1eaa38b85111f3";
     src = fetchgit {
       url = "https://github.com/nvim-treesitter/nvim-treesitter";
-      rev = "898f9c13d60bd51bdf873e284177f98264f0954f";
+      rev = "7c935d6bd5ecb36e7c6cf6678e1eaa38b85111f3";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-rcQXlTjjPr3HPrYajGgDkh21jrsgPYN9aeY3Hd4EuF0=";
+      sha256 = "sha256-CHQiLXyBZ6omU4ClZ5FVUZFahnCrntE+04QrWlKL3mY=";
     };
-    date = "2023-08-10";
+    date = "2023-08-21";
   };
   treesitter-context = {
     pname = "treesitter-context";
-    version = "3d4ab25056dcaf6dd11ebacf1da8525c8df6550f";
+    version = "14856c9ee6eb0ede0ae9b43782c9be5e7bd946e6";
     src = fetchgit {
       url = "https://github.com/nvim-treesitter/nvim-treesitter-context";
-      rev = "3d4ab25056dcaf6dd11ebacf1da8525c8df6550f";
+      rev = "14856c9ee6eb0ede0ae9b43782c9be5e7bd946e6";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-gOf7ZwExcZePJp9o0z4fXaTsdBKfow/AAwT5X00nvgk=";
+      sha256 = "sha256-yXT8/SxXje3RNfPpO2PnB7pKGhfLGt5/JMm8+yFaFOg=";
     };
-    date = "2023-08-03";
+    date = "2023-08-20";
   };
   trouble = {
     pname = "trouble";
@@ -458,29 +458,29 @@
   };
   vimtex = {
     pname = "vimtex";
-    version = "877de3ba5de5f766e5bfa1c3fb0d2ecfcd18f868";
+    version = "534fd725f2475a9083b032e402c7e73b8a3fc6bb";
     src = fetchgit {
       url = "https://github.com/lervag/vimtex";
-      rev = "877de3ba5de5f766e5bfa1c3fb0d2ecfcd18f868";
+      rev = "534fd725f2475a9083b032e402c7e73b8a3fc6bb";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-WCe4Y6vdpaJvYQltG1xCOZ7t0IJpPVuGutZYghRI3/s=";
+      sha256 = "sha256-ZL6CYqiHEpx/qatYmap9Hc2qO1Je9llulwFUEOS2LkQ=";
     };
-    date = "2023-07-25";
+    date = "2023-08-19";
   };
   web-devicons = {
     pname = "web-devicons";
-    version = "ab899311f8ae00a47eae8e0879506cead8eb1561";
+    version = "cfc8824cc1db316a276b36517f093baccb8e799a";
     src = fetchgit {
       url = "https://github.com/nvim-tree/nvim-web-devicons";
-      rev = "ab899311f8ae00a47eae8e0879506cead8eb1561";
+      rev = "cfc8824cc1db316a276b36517f093baccb8e799a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-1qOM8ezmNAdLvhRwBe/yFKdjZep9zNto6NlKMF5vZps=";
+      sha256 = "sha256-6iuZbUi7MA69/wIMijCWj3J1s2RrCWKxQ/l7fWDnOF0=";
     };
-    date = "2023-08-10";
+    date = "2023-08-17";
   };
   which-key = {
     pname = "which-key";
