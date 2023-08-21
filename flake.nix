@@ -32,7 +32,7 @@
         packages = [
           self.packages.${system}.default
           pkgs.roswell
-          pkgs.nvfetcher
+          # pkgs.nvfetcher <-- broken
         ];
       };
 
