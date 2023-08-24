@@ -2,9 +2,9 @@
 src.git = "https://github.com/bluz71/vim-moonfly-colors"
 fetch.git = "https://github.com/bluz71/vim-moonfly-colors"
 
-[oxocarbon]
-src.git = "https://github.com/nyoom-engineering/oxocarbon.nvim"
-fetch.git = "https://github.com/nyoom-engineering/oxocarbon.nvim"
+# [oxocarbon]
+# src.git = "https://github.com/nyoom-engineering/oxocarbon.nvim"
+# fetch.git = "https://github.com/nyoom-engineering/oxocarbon.nvim"
 
 [neorg]
 src.git = "https://github.com/nvim-neorg/neorg"
@@ -17,6 +17,10 @@ fetch.git = "https://github.com/nvim-neorg/neorg-telescope"
 [web-devicons]
 src.git = "https://github.com/nvim-tree/nvim-web-devicons"
 fetch.git = "https://github.com/nvim-tree/nvim-web-devicons"
+
+[autoclose]
+src.git = "https://github.com/m4xshen/autoclose.nvim"
+fetch.git = "https://github.com/m4xshen/autoclose.nvim"
 
 [coq_nvim]
 src.git = "https://github.com/ms-jpq/coq_nvim"
