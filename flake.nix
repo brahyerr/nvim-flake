@@ -31,7 +31,6 @@
       devShells.${system}.default = pkgs.mkShell {
         packages = [
           self.packages.${system}.default
-          pkgs.roswell
           # pkgs.nvfetcher <-- broken
         ];
       };
