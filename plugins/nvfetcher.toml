@@ -18,9 +18,9 @@ fetch.git = "https://github.com/nvim-neorg/neorg-telescope"
 src.git = "https://github.com/nvim-tree/nvim-web-devicons"
 fetch.git = "https://github.com/nvim-tree/nvim-web-devicons"
 
-[autoclose]
-src.git = "https://github.com/m4xshen/autoclose.nvim"
-fetch.git = "https://github.com/m4xshen/autoclose.nvim"
+# [autoclose]
+# src.git = "https://github.com/m4xshen/autoclose.nvim"
+# fetch.git = "https://github.com/m4xshen/autoclose.nvim"
 
 [coq_nvim]
 src.git = "https://github.com/ms-jpq/coq_nvim"
