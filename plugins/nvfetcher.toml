@@ -30,7 +30,7 @@ fetch.git = "https://github.com/ms-jpq/coq_nvim"
 src.git = "https://github.com/ms-jpq/coq.thirdparty"
 fetch.git = "https://github.com/ms-jpq/coq.thirdparty"
 
-[coq.artifacts]
+["coq.artifacts"]
 src.git = "https://github.com/ms-jpq/coq.artifacts"
 fetch.git = "https://github.com/ms-jpq/coq.artifacts"
 
