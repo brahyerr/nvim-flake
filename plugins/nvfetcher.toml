@@ -94,13 +94,13 @@ fetch.git = "https://github.com/nvim-lualine/lualine.nvim"
 src.git = "https://github.com/danymat/neogen"
 fetch.git = "https://github.com/danymat/neogen"
 
-[notify]
-src.git = "https://github.com/rcarriga/nvim-notify"
-fetch.git = "https://github.com/rcarriga/nvim-notify"
-
-[noice]
-src.git = "https://github.com/folke/noice.nvim"
-fetch.git = "https://github.com/folke/noice.nvim"
+# [notify]
+# src.git = "https://github.com/rcarriga/nvim-notify"
+# fetch.git = "https://github.com/rcarriga/nvim-notify"
+#
+# [noice]
+# src.git = "https://github.com/folke/noice.nvim"
+# fetch.git = "https://github.com/folke/noice.nvim"
 
 [nui]
 src.git = "https://github.com/MunifTanjim/nui.nvim"
@@ -130,9 +130,9 @@ fetch.git = "https://github.com/folke/which-key.nvim"
 src.git = "https://github.com/lukas-reineke/indent-blankline.nvim"
 fetch.git = "https://github.com/lukas-reineke/indent-blankline.nvim"
 
-[bufferline-lua]
-src.git = "https://github.com/akinsho/bufferline.nvim"
-fetch.git = "https://github.com/akinsho/bufferline.nvim"
+# [bufferline-lua]
+# src.git = "https://github.com/akinsho/bufferline.nvim"
+# fetch.git = "https://github.com/akinsho/bufferline.nvim"
 
 [smart-splits]
 src.git = "https://github.com/mrjones2014/smart-splits.nvim"
